@@ -1,0 +1,499 @@
+2025-09-28 23:54:16,355 - DEBUG - Using proactor: IocpProactor
+2025-09-28 23:54:17,252 - DEBUG - Launching browser
+2025-09-28 23:54:17,623 - DEBUG - Browser launched successfully
+2025-09-28 23:54:17,623 - DEBUG - Creating new context
+2025-09-28 23:54:17,709 - DEBUG - Context created
+2025-09-28 23:54:17,709 - DEBUG - Creating new page
+2025-09-28 23:54:18,005 - DEBUG - Page created
+2025-09-28 23:54:18,005 - DEBUG - Navigating to http://172.16.1.10/index.htm
+2025-09-28 23:54:18,479 - DEBUG - Navigation completed
+2025-09-28 23:54:18,480 - DEBUG - Clicking login textbox
+2025-09-28 23:54:18,557 - DEBUG - Filling login
+2025-09-28 23:54:18,572 - DEBUG - Clicking password textbox
+2025-09-28 23:54:18,667 - DEBUG - Filling password
+2025-09-28 23:54:18,679 - DEBUG - Clicking login button
+2025-09-28 23:54:19,195 - DEBUG - Clicking 'Все' link
+2025-09-28 23:54:35,058 - DEBUG - Clicking 'Centr-mikrotik'
+2025-09-28 23:54:41,860 - DEBUG - Clicking specific locator
+2025-09-28 23:57:16,360 - DEBUG - Using proactor: IocpProactor
+2025-09-28 23:57:17,230 - DEBUG - Launching browser
+2025-09-28 23:57:17,517 - DEBUG - Browser launched successfully
+2025-09-28 23:57:17,518 - DEBUG - Creating new context
+2025-09-28 23:57:17,561 - DEBUG - Context created
+2025-09-28 23:57:17,561 - DEBUG - Creating new page
+2025-09-28 23:57:17,882 - DEBUG - Page created
+2025-09-28 23:57:17,882 - DEBUG - Navigating to http://172.16.1.10/index.htm
+2025-09-28 23:57:18,316 - DEBUG - Navigation completed
+2025-09-28 23:57:18,317 - DEBUG - Clicking login textbox
+2025-09-28 23:57:18,423 - DEBUG - Filling login
+2025-09-28 23:57:18,436 - DEBUG - Clicking password textbox
+2025-09-28 23:57:18,530 - DEBUG - Filling password
+2025-09-28 23:57:18,540 - DEBUG - Clicking login button
+2025-09-28 23:57:19,044 - DEBUG - Clicking 'Устройства' link
+2025-09-28 23:57:19,590 - DEBUG - Clicking 'Все' link
+2025-09-28 23:57:26,567 - DEBUG - Clicking 'Centr-mikrotik'
+2025-09-28 23:57:27,269 - DEBUG - Clicking '(001) WAN1 Traffic' link
+2025-09-28 23:57:28,540 - DEBUG - Clicking 'Текущие данные' link
+2025-09-28 23:57:28,692 - DEBUG - Clicking graph image
+2025-09-30 00:08:58,824 - DEBUG - Using proactor: IocpProactor
+2025-09-30 00:08:59,795 - DEBUG - Launching browser
+2025-09-30 00:09:00,204 - DEBUG - Browser launched
+2025-09-30 00:09:00,204 - DEBUG - Creating new context
+2025-09-30 00:09:00,250 - DEBUG - Context created
+2025-09-30 00:09:00,250 - DEBUG - Creating new page
+2025-09-30 00:09:00,534 - DEBUG - Page created
+2025-09-30 00:09:00,534 - DEBUG - Navigating to login page
+2025-09-30 00:09:01,729 - DEBUG - Navigation completed
+2025-09-30 00:09:01,729 - DEBUG - Filling login
+2025-09-30 00:09:01,992 - DEBUG - Filling password
+2025-09-30 00:09:02,133 - DEBUG - Clicking login button
+2025-09-30 00:09:02,190 - DEBUG - Clicking nav issues
+2025-09-30 00:09:03,606 - DEBUG - Waiting for loader to disappear
+2025-09-30 00:09:06,072 - DEBUG - Loader disappeared
+2025-09-30 00:09:06,072 - DEBUG - Clicking search textbox
+2025-09-30 00:09:06,135 - DEBUG - Filling search with 367001
+2025-09-30 00:09:06,155 - DEBUG - Finding claim number element
+2025-09-30 00:09:08,446 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-09-30 00:09:08,446 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-09-30 00:09:08,467 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-09-30 00:09:08,474 - DEBUG - Clicking Comments tab
+2025-09-30 00:09:09,334 - DEBUG - Waiting for upload area to appear
+2025-09-30 00:09:42,206 - DEBUG - Using proactor: IocpProactor
+2025-09-30 00:09:43,201 - DEBUG - Launching browser
+2025-09-30 00:09:43,525 - DEBUG - Browser launched
+2025-09-30 00:09:43,525 - DEBUG - Creating new context
+2025-09-30 00:09:43,555 - DEBUG - Context created
+2025-09-30 00:09:43,556 - DEBUG - Creating new page
+2025-09-30 00:09:43,844 - DEBUG - Page created
+2025-09-30 00:09:43,844 - DEBUG - Navigating to login page
+2025-09-30 00:09:45,024 - DEBUG - Navigation completed
+2025-09-30 00:09:45,024 - DEBUG - Filling login
+2025-09-30 00:09:45,481 - DEBUG - Filling password
+2025-09-30 00:09:45,531 - DEBUG - Clicking login button
+2025-09-30 00:09:45,589 - DEBUG - Clicking nav issues
+2025-09-30 00:09:46,999 - DEBUG - Waiting for loader to disappear
+2025-09-30 00:09:49,553 - DEBUG - Loader disappeared
+2025-09-30 00:09:49,553 - DEBUG - Clicking search textbox
+2025-09-30 00:09:49,598 - DEBUG - Filling search with 367001
+2025-09-30 00:09:49,616 - DEBUG - Finding claim number element
+2025-09-30 00:09:51,349 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-09-30 00:09:51,349 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-09-30 00:09:51,369 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-09-30 00:09:51,369 - DEBUG - Clicking Comments tab
+2025-09-30 00:09:52,263 - DEBUG - Waiting for upload area to appear
+2025-09-30 00:19:09,008 - DEBUG - Using proactor: IocpProactor
+2025-09-30 00:19:09,930 - DEBUG - Launching browser
+2025-09-30 00:19:10,250 - DEBUG - Browser launched
+2025-09-30 00:19:10,250 - DEBUG - Creating new context
+2025-09-30 00:19:10,265 - DEBUG - Context created
+2025-09-30 00:19:10,265 - DEBUG - Creating new page
+2025-09-30 00:19:10,758 - DEBUG - Page created
+2025-09-30 00:19:10,758 - DEBUG - Navigating to login page
+2025-09-30 00:19:12,039 - DEBUG - Navigation completed
+2025-09-30 00:19:12,039 - DEBUG - Filling login
+2025-09-30 00:19:12,513 - DEBUG - Filling password
+2025-09-30 00:19:12,587 - DEBUG - Clicking login button
+2025-09-30 00:19:12,646 - DEBUG - Clicking nav issues
+2025-09-30 00:19:14,066 - DEBUG - Waiting for loader to disappear
+2025-09-30 00:19:16,602 - DEBUG - Loader disappeared
+2025-09-30 00:19:16,602 - DEBUG - Clicking search textbox
+2025-09-30 00:19:16,658 - DEBUG - Filling search with 367001
+2025-09-30 00:19:16,677 - DEBUG - Finding claim number element
+2025-09-30 00:19:18,923 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-09-30 00:19:18,924 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-09-30 00:19:18,943 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-09-30 00:19:18,943 - DEBUG - Clicking Comments tab
+2025-09-30 00:19:19,840 - DEBUG - Waiting for upload area to appear
+2025-09-30 00:23:04,368 - DEBUG - Using proactor: IocpProactor
+2025-09-30 00:23:05,370 - DEBUG - Launching browser
+2025-09-30 00:23:05,674 - DEBUG - Browser launched
+2025-09-30 00:23:05,674 - DEBUG - Creating new context
+2025-09-30 00:23:05,688 - DEBUG - Context created
+2025-09-30 00:23:05,688 - DEBUG - Creating new page
+2025-09-30 00:23:06,018 - DEBUG - Page created
+2025-09-30 00:23:06,018 - DEBUG - Navigating to login page
+2025-09-30 00:23:07,333 - DEBUG - Navigation completed
+2025-09-30 00:23:07,333 - DEBUG - Filling login
+2025-09-30 00:23:07,770 - DEBUG - Filling password
+2025-09-30 00:23:07,818 - DEBUG - Clicking login button
+2025-09-30 00:23:07,876 - DEBUG - Clicking nav issues
+2025-09-30 00:23:09,292 - DEBUG - Waiting for loader to disappear
+2025-09-30 00:23:11,937 - DEBUG - Loader disappeared
+2025-09-30 00:23:11,937 - DEBUG - Clicking search textbox
+2025-09-30 00:23:11,986 - DEBUG - Filling search with 367001
+2025-09-30 00:23:12,008 - DEBUG - Finding claim number element
+2025-09-30 00:23:14,275 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-09-30 00:23:14,275 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-09-30 00:23:14,295 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-09-30 00:23:14,295 - DEBUG - Clicking Comments tab
+2025-09-30 00:23:15,169 - DEBUG - Waiting for upload area to appear
+2025-09-30 00:23:16,513 - DEBUG - Upload area appeared
+2025-09-30 00:23:16,513 - DEBUG - Clicking upload area
+2025-09-30 00:23:16,551 - DEBUG - Setting input files
+2025-09-30 00:25:42,415 - DEBUG - Using proactor: IocpProactor
+2025-09-30 00:25:43,750 - DEBUG - Launching browser
+2025-09-30 00:25:44,087 - DEBUG - Browser launched
+2025-09-30 00:25:44,087 - DEBUG - Creating new context
+2025-09-30 00:25:44,102 - DEBUG - Context created
+2025-09-30 00:25:44,102 - DEBUG - Creating new page
+2025-09-30 00:25:44,424 - DEBUG - Page created
+2025-09-30 00:25:44,425 - DEBUG - Navigating to login page
+2025-09-30 00:25:45,662 - DEBUG - Navigation completed
+2025-09-30 00:25:45,662 - DEBUG - Filling login
+2025-09-30 00:25:46,143 - DEBUG - Filling password
+2025-09-30 00:25:46,217 - DEBUG - Clicking login button
+2025-09-30 00:25:46,274 - DEBUG - Clicking nav issues
+2025-09-30 00:25:47,686 - DEBUG - Waiting for loader to disappear
+2025-09-30 00:25:50,291 - DEBUG - Loader disappeared
+2025-09-30 00:25:50,291 - DEBUG - Clicking search textbox
+2025-09-30 00:25:50,355 - DEBUG - Filling search with 367001
+2025-09-30 00:25:50,373 - DEBUG - Finding claim number element
+2025-09-30 00:25:52,098 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-09-30 00:25:52,098 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-09-30 00:25:52,118 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-09-30 00:25:52,118 - DEBUG - Clicking Comments tab
+2025-09-30 00:25:53,018 - DEBUG - Waiting for upload area to appear
+2025-09-30 00:25:54,391 - DEBUG - Upload area appeared
+2025-09-30 00:25:54,391 - DEBUG - Clicking upload area
+2025-09-30 00:25:54,432 - DEBUG - Setting input files
+2025-09-30 00:27:32,879 - DEBUG - Using proactor: IocpProactor
+2025-09-30 00:27:33,877 - DEBUG - Launching browser
+2025-09-30 00:27:34,216 - DEBUG - Browser launched
+2025-09-30 00:27:34,216 - DEBUG - Creating new context
+2025-09-30 00:27:34,255 - DEBUG - Context created
+2025-09-30 00:27:34,255 - DEBUG - Creating new page
+2025-09-30 00:27:34,581 - DEBUG - Page created
+2025-09-30 00:27:34,581 - DEBUG - Navigating to login page
+2025-09-30 00:27:35,692 - DEBUG - Navigation completed
+2025-09-30 00:27:35,692 - DEBUG - Filling login
+2025-09-30 00:27:36,013 - DEBUG - Filling password
+2025-09-30 00:27:36,170 - DEBUG - Clicking login button
+2025-09-30 00:27:36,223 - DEBUG - Clicking nav issues
+2025-09-30 00:27:37,630 - DEBUG - Waiting for loader to disappear
+2025-09-30 00:27:40,164 - DEBUG - Loader disappeared
+2025-09-30 00:27:40,164 - DEBUG - Clicking search textbox
+2025-09-30 00:27:40,215 - DEBUG - Filling search with 367001
+2025-09-30 00:27:40,235 - DEBUG - Finding claim number element
+2025-09-30 00:27:42,522 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-09-30 00:27:42,522 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-09-30 00:27:42,541 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-09-30 00:27:42,541 - DEBUG - Clicking Comments tab
+2025-09-30 00:27:43,414 - DEBUG - Waiting for upload area to appear
+2025-09-30 00:27:44,762 - DEBUG - Upload area appeared
+2025-09-30 00:27:44,762 - DEBUG - Clicking upload area
+2025-09-30 00:27:44,815 - DEBUG - Setting input files
+2025-09-30 00:27:44,835 - DEBUG - Sleeping for 5 seconds
+2025-09-30 00:27:49,848 - DEBUG - Closing context
+2025-09-30 00:27:49,941 - DEBUG - Closing browser
+2025-09-30 00:27:50,393 - DEBUG - Browser closed
+2025-09-30 00:46:22,437 - DEBUG - Using proactor: IocpProactor
+2025-09-30 00:46:23,364 - DEBUG - Launching browser
+2025-09-30 00:46:23,703 - DEBUG - Browser launched
+2025-09-30 00:46:23,703 - DEBUG - Creating new context
+2025-09-30 00:46:23,717 - DEBUG - Context created
+2025-09-30 00:46:23,718 - DEBUG - Creating new page
+2025-09-30 00:46:24,001 - DEBUG - Page created
+2025-09-30 00:46:24,001 - DEBUG - Navigating to login page
+2025-09-30 00:46:25,255 - DEBUG - Navigation completed
+2025-09-30 00:46:25,255 - DEBUG - Filling login
+2025-09-30 00:46:25,738 - DEBUG - Filling password
+2025-09-30 00:46:25,795 - DEBUG - Clicking login button
+2025-09-30 00:46:25,853 - DEBUG - Clicking nav issues
+2025-09-30 00:46:27,284 - DEBUG - Waiting for loader to disappear
+2025-09-30 00:46:30,304 - DEBUG - Loader disappeared
+2025-09-30 00:46:30,304 - DEBUG - Clicking search textbox
+2025-09-30 00:46:30,346 - DEBUG - Filling search with 367001
+2025-09-30 00:46:30,366 - DEBUG - Finding claim number element
+2025-09-30 00:46:32,667 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-09-30 00:46:32,667 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-09-30 00:46:32,688 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-09-30 00:46:32,688 - DEBUG - Clicking Comments tab
+2025-09-30 00:46:34,081 - DEBUG - Waiting for upload area to appear
+2025-09-30 00:46:35,429 - DEBUG - Upload area appeared
+2025-09-30 00:47:10,311 - DEBUG - Using proactor: IocpProactor
+2025-09-30 00:47:11,310 - DEBUG - Launching browser
+2025-09-30 00:47:11,657 - DEBUG - Browser launched
+2025-09-30 00:47:11,657 - DEBUG - Creating new context
+2025-09-30 00:47:11,694 - DEBUG - Context created
+2025-09-30 00:47:11,694 - DEBUG - Creating new page
+2025-09-30 00:47:12,036 - DEBUG - Page created
+2025-09-30 00:47:12,036 - DEBUG - Navigating to login page
+2025-09-30 00:47:13,186 - DEBUG - Navigation completed
+2025-09-30 00:47:13,186 - DEBUG - Filling login
+2025-09-30 00:47:13,659 - DEBUG - Filling password
+2025-09-30 00:47:13,712 - DEBUG - Clicking login button
+2025-09-30 00:47:13,769 - DEBUG - Clicking nav issues
+2025-09-30 00:47:15,184 - DEBUG - Waiting for loader to disappear
+2025-09-30 00:47:18,080 - DEBUG - Loader disappeared
+2025-09-30 00:47:18,081 - DEBUG - Clicking search textbox
+2025-09-30 00:47:18,113 - DEBUG - Filling search with 367001
+2025-09-30 00:47:18,133 - DEBUG - Finding claim number element
+2025-09-30 00:47:20,402 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-09-30 00:47:20,403 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-09-30 00:47:20,423 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-09-30 00:47:20,423 - DEBUG - Clicking Comments tab
+2025-09-30 00:47:21,311 - DEBUG - Waiting for upload area to appear
+2025-09-30 00:47:22,667 - DEBUG - Upload area appeared
+2025-09-30 00:50:32,209 - DEBUG - Using proactor: IocpProactor
+2025-09-30 00:50:33,104 - DEBUG - Launching browser
+2025-09-30 00:50:33,483 - DEBUG - Browser launched
+2025-09-30 00:50:33,483 - DEBUG - Creating new context
+2025-09-30 00:50:33,543 - DEBUG - Context created
+2025-09-30 00:50:33,543 - DEBUG - Creating new page
+2025-09-30 00:50:33,794 - DEBUG - Page created
+2025-09-30 00:50:33,794 - DEBUG - Navigating to login page
+2025-09-30 00:50:35,067 - DEBUG - Navigation completed
+2025-09-30 00:50:35,067 - DEBUG - Filling login
+2025-09-30 00:50:35,308 - DEBUG - Filling password
+2025-09-30 00:50:35,474 - DEBUG - Clicking login button
+2025-09-30 00:50:35,534 - DEBUG - Clicking nav issues
+2025-09-30 00:50:36,949 - DEBUG - Waiting for loader to disappear
+2025-09-30 00:50:39,538 - DEBUG - Loader disappeared
+2025-09-30 00:50:39,538 - DEBUG - Clicking search textbox
+2025-09-30 00:50:39,622 - DEBUG - Filling search with 367001
+2025-09-30 00:50:39,647 - DEBUG - Finding claim number element
+2025-09-30 00:50:41,927 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-09-30 00:50:41,928 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-09-30 00:50:41,948 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-09-30 00:50:41,948 - DEBUG - Clicking Comments tab
+2025-09-30 00:50:42,827 - DEBUG - Waiting for upload area to appear
+2025-09-30 00:50:44,175 - DEBUG - Upload area appeared
+2025-09-30 00:50:44,175 - DEBUG - Setting input files
+2025-09-30 00:50:44,196 - DEBUG - \U0001f4c1 Файл '367001-3.jpg' успешно установлен!
+2025-10-22 00:06:25,701 - DEBUG - Using proactor: IocpProactor
+2025-10-22 00:06:28,882 - DEBUG - Launching browser
+2025-10-22 00:06:31,278 - DEBUG - Browser launched
+2025-10-22 00:06:31,278 - DEBUG - Creating new context
+2025-10-22 00:06:31,312 - DEBUG - Context created
+2025-10-22 00:06:31,312 - DEBUG - Creating new page
+2025-10-22 00:06:31,638 - DEBUG - Page created
+2025-10-22 00:06:31,638 - DEBUG - Navigating to login page
+2025-10-22 00:06:32,995 - DEBUG - Navigation completed
+2025-10-22 00:06:32,995 - DEBUG - Filling login
+2025-10-22 00:06:33,301 - DEBUG - Filling password
+2025-10-22 00:06:33,489 - DEBUG - Clicking login button
+2025-10-22 00:06:33,545 - DEBUG - Clicking nav issues
+2025-10-22 00:06:34,456 - DEBUG - Waiting for loader to disappear
+2025-10-22 00:06:37,340 - DEBUG - Loader disappeared
+2025-10-22 00:06:37,341 - DEBUG - Clicking search textbox
+2025-10-22 00:06:37,375 - DEBUG - Filling search with 367001
+2025-10-22 00:06:37,394 - DEBUG - Finding claim number element
+2025-10-22 00:06:39,123 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-10-22 00:06:39,123 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-10-22 00:06:39,143 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-10-22 00:06:39,144 - DEBUG - Clicking Comments tab
+2025-10-22 00:06:39,554 - DEBUG - Waiting for upload area to appear
+2025-10-22 00:06:40,901 - DEBUG - Upload area appeared
+2025-10-22 00:06:40,901 - DEBUG - Setting input files
+2025-10-22 00:06:40,925 - DEBUG - \U0001f4c1 Файл '367001-3.jpg' успешно установлен!
+2025-10-22 00:08:55,926 - DEBUG - Using proactor: IocpProactor
+2025-10-22 00:08:56,819 - DEBUG - Launching browser
+2025-10-22 00:08:57,108 - DEBUG - Browser launched
+2025-10-22 00:08:57,108 - DEBUG - Creating new context
+2025-10-22 00:08:57,158 - DEBUG - Context created
+2025-10-22 00:08:57,158 - DEBUG - Creating new page
+2025-10-22 00:08:57,477 - DEBUG - Page created
+2025-10-22 00:08:57,477 - DEBUG - Navigating to login page
+2025-10-22 00:08:59,392 - DEBUG - Navigation completed
+2025-10-22 00:08:59,392 - DEBUG - Filling login
+2025-10-22 00:08:59,654 - DEBUG - Filling password
+2025-10-22 00:08:59,833 - DEBUG - Clicking login button
+2025-10-22 00:08:59,893 - DEBUG - Clicking nav issues
+2025-10-22 00:09:00,979 - DEBUG - Waiting for loader to disappear
+2025-10-22 00:09:03,561 - DEBUG - Loader disappeared
+2025-10-22 00:09:03,561 - DEBUG - Clicking search textbox
+2025-10-22 00:09:03,604 - DEBUG - Filling search with 367001
+2025-10-22 00:09:03,627 - DEBUG - Finding claim number element
+2025-10-22 00:09:05,376 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-10-22 00:09:05,376 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-10-22 00:09:05,396 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-10-22 00:09:05,396 - DEBUG - Clicking Comments tab
+2025-10-22 00:09:06,336 - DEBUG - Waiting for upload area to appear
+2025-10-22 00:09:07,678 - DEBUG - Upload area appeared
+2025-10-22 00:09:07,678 - DEBUG - Setting input files
+2025-10-22 00:09:07,701 - DEBUG - \U0001f4c1 Файл '367001-3.jpg' успешно установлен!
+2025-10-22 00:10:21,008 - DEBUG - Using proactor: IocpProactor
+2025-10-22 00:10:21,897 - DEBUG - Launching browser
+2025-10-22 00:10:22,218 - DEBUG - Browser launched
+2025-10-22 00:10:22,219 - DEBUG - Creating new context
+2025-10-22 00:10:22,274 - DEBUG - Context created
+2025-10-22 00:10:22,274 - DEBUG - Creating new page
+2025-10-22 00:10:22,570 - DEBUG - Page created
+2025-10-22 00:10:22,570 - DEBUG - Navigating to login page
+2025-10-22 00:10:24,209 - DEBUG - Navigation completed
+2025-10-22 00:10:24,209 - DEBUG - Filling login
+2025-10-22 00:10:24,506 - DEBUG - Filling password
+2025-10-22 00:10:24,657 - DEBUG - Clicking login button
+2025-10-22 00:10:24,724 - DEBUG - Clicking nav issues
+2025-10-22 00:10:25,758 - DEBUG - Waiting for loader to disappear
+2025-10-22 00:10:28,360 - DEBUG - Loader disappeared
+2025-10-22 00:10:28,361 - DEBUG - Clicking search textbox
+2025-10-22 00:10:28,418 - DEBUG - Filling search with 367001
+2025-10-22 00:10:28,436 - DEBUG - Finding claim number element
+2025-10-22 00:10:30,701 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-10-22 00:10:30,701 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-10-22 00:10:30,721 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-10-22 00:10:30,721 - DEBUG - Clicking Comments tab
+2025-10-22 00:10:31,150 - DEBUG - Waiting for upload area to appear
+2025-10-22 00:10:32,479 - DEBUG - Upload area appeared
+2025-10-22 00:10:32,479 - DEBUG - Setting input files
+2025-10-22 00:10:32,504 - DEBUG - \U0001f4c1 Файл '367001-3.jpg' успешно установлен!
+2025-10-22 00:13:44,649 - DEBUG - Using proactor: IocpProactor
+2025-10-22 00:13:45,567 - DEBUG - Launching browser
+2025-10-22 00:13:45,930 - DEBUG - Browser launched
+2025-10-22 00:13:45,930 - DEBUG - Creating new context
+2025-10-22 00:13:45,945 - DEBUG - Context created
+2025-10-22 00:13:45,945 - DEBUG - Creating new page
+2025-10-22 00:13:46,296 - DEBUG - Page created
+2025-10-22 00:13:46,296 - DEBUG - Navigating to login page
+2025-10-22 00:13:48,177 - DEBUG - Navigation completed
+2025-10-22 00:13:48,178 - DEBUG - Filling login
+2025-10-22 00:13:48,443 - DEBUG - Filling password
+2025-10-22 00:13:48,616 - DEBUG - Clicking login button
+2025-10-22 00:13:48,671 - DEBUG - Clicking nav issues
+2025-10-22 00:13:49,639 - DEBUG - Waiting for loader to disappear
+2025-10-22 00:13:52,263 - DEBUG - Loader disappeared
+2025-10-22 00:13:52,264 - DEBUG - Clicking search textbox
+2025-10-22 00:13:52,334 - DEBUG - Filling search with 367001
+2025-10-22 00:13:52,354 - DEBUG - Finding claim number element
+2025-10-22 00:13:54,073 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-10-22 00:13:54,073 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-10-22 00:13:54,092 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-10-22 00:13:54,092 - DEBUG - Clicking Comments tab
+2025-10-22 00:13:54,522 - DEBUG - Waiting for upload area to appear
+2025-10-22 00:13:55,870 - DEBUG - Upload area appeared
+2025-10-22 00:13:55,870 - DEBUG - Setting input files
+2025-10-22 00:13:55,890 - DEBUG - \U0001f4c1 Файл '367001-3.jpg' успешно установлен!
+2025-10-22 00:17:05,618 - DEBUG - Using proactor: IocpProactor
+2025-10-22 00:17:06,504 - DEBUG - Launching browser
+2025-10-22 00:17:06,829 - DEBUG - Browser launched
+2025-10-22 00:17:06,829 - DEBUG - Creating new context
+2025-10-22 00:17:06,843 - DEBUG - Context created
+2025-10-22 00:17:06,843 - DEBUG - Creating new page
+2025-10-22 00:17:07,201 - DEBUG - Page created
+2025-10-22 00:17:07,202 - DEBUG - Navigating to login page
+2025-10-22 00:17:08,872 - DEBUG - Navigation completed
+2025-10-22 00:17:08,872 - DEBUG - Filling login
+2025-10-22 00:17:09,251 - DEBUG - Filling password
+2025-10-22 00:17:09,377 - DEBUG - Clicking login button
+2025-10-22 00:17:09,434 - DEBUG - Clicking nav issues
+2025-10-22 00:17:10,416 - DEBUG - Waiting for loader to disappear
+2025-10-22 00:17:13,051 - DEBUG - Loader disappeared
+2025-10-22 00:17:13,051 - DEBUG - Clicking search textbox
+2025-10-22 00:17:13,093 - DEBUG - Filling search with 367001
+2025-10-22 00:17:13,112 - DEBUG - Finding claim number element
+2025-10-22 00:17:14,810 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-10-22 00:17:14,810 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-10-22 00:17:14,829 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-10-22 00:17:14,830 - DEBUG - Clicking Comments tab
+2025-10-22 00:17:15,235 - DEBUG - Waiting for upload area to appear
+2025-10-22 00:17:16,572 - DEBUG - Upload area appeared
+2025-10-22 00:17:16,572 - DEBUG - Setting input files
+2025-10-22 00:17:16,595 - DEBUG - \U0001f4c1 Файл '367001-3.jpg' успешно установлен!
+2025-10-22 00:18:51,621 - DEBUG - Using proactor: IocpProactor
+2025-10-22 00:18:52,478 - DEBUG - Launching browser
+2025-10-22 00:18:52,790 - DEBUG - Browser launched
+2025-10-22 00:18:52,790 - DEBUG - Creating new context
+2025-10-22 00:18:52,835 - DEBUG - Context created
+2025-10-22 00:18:52,835 - DEBUG - Creating new page
+2025-10-22 00:18:53,212 - DEBUG - Page created
+2025-10-22 00:18:53,212 - DEBUG - Navigating to login page
+2025-10-22 00:18:54,864 - DEBUG - Navigation completed
+2025-10-22 00:18:54,864 - DEBUG - Filling login
+2025-10-22 00:18:55,141 - DEBUG - Filling password
+2025-10-22 00:18:55,301 - DEBUG - Clicking login button
+2025-10-22 00:18:55,349 - DEBUG - Clicking nav issues
+2025-10-22 00:18:56,300 - DEBUG - Waiting for loader to disappear
+2025-10-22 00:18:58,882 - DEBUG - Loader disappeared
+2025-10-22 00:18:58,882 - DEBUG - Clicking search textbox
+2025-10-22 00:18:58,926 - DEBUG - Filling search with 367001
+2025-10-22 00:18:58,947 - DEBUG - Finding claim number element
+2025-10-22 00:19:00,743 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-10-22 00:19:00,743 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-10-22 00:19:00,765 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-10-22 00:19:00,765 - DEBUG - Clicking Comments tab
+2025-10-22 00:19:01,641 - DEBUG - Waiting for upload area to appear
+2025-10-22 00:19:03,003 - DEBUG - Upload area appeared
+2025-10-22 00:19:03,004 - DEBUG - Setting input files
+2025-10-22 00:19:03,025 - DEBUG - \U0001f4c1 Файл '367001-3.jpg' успешно установлен!
+2025-10-22 00:30:18,466 - DEBUG - Using proactor: IocpProactor
+2025-10-22 00:30:19,476 - DEBUG - Launching browser
+2025-10-22 00:30:19,811 - DEBUG - Browser launched
+2025-10-22 00:30:19,811 - DEBUG - Creating new context
+2025-10-22 00:30:19,840 - DEBUG - Context created
+2025-10-22 00:30:19,840 - DEBUG - Creating new page
+2025-10-22 00:30:20,176 - DEBUG - Page created
+2025-10-22 00:30:20,176 - DEBUG - Navigating to login page
+2025-10-22 00:30:22,020 - DEBUG - Navigation completed
+2025-10-22 00:30:22,020 - DEBUG - Filling login
+2025-10-22 00:30:22,302 - DEBUG - Filling password
+2025-10-22 00:30:22,422 - DEBUG - Clicking login button
+2025-10-22 00:30:22,487 - DEBUG - Clicking nav issues
+2025-10-22 00:30:23,519 - DEBUG - Waiting for loader to disappear
+2025-10-22 00:30:26,115 - DEBUG - Loader disappeared
+2025-10-22 00:30:26,115 - DEBUG - Clicking search textbox
+2025-10-22 00:30:26,163 - DEBUG - Filling search with 367001
+2025-10-22 00:30:26,184 - DEBUG - Finding claim number element
+2025-10-22 00:30:28,459 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-10-22 00:30:28,460 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-10-22 00:30:28,481 - DEBUG - \u2705 Клик выполнен в точку: (359.15625, 456.59375)
+2025-10-22 00:30:28,481 - DEBUG - Clicking Comments tab
+2025-10-22 00:30:28,930 - DEBUG - Waiting for upload area to appear
+2025-10-22 00:30:30,296 - DEBUG - Upload area appeared
+2025-10-22 00:30:30,297 - DEBUG - Setting input files
+2025-10-22 00:30:30,318 - DEBUG - \U0001f4c1 Файл '367001-3.jpg' успешно установлен!
+2025-10-22 00:30:49,089 - DEBUG - \u2705 Файл отобразился в списке загруженных!
+2025-10-22 00:31:45,647 - DEBUG - Using proactor: IocpProactor
+2025-10-22 00:31:46,559 - DEBUG - Launching browser
+2025-10-22 00:31:46,943 - DEBUG - Browser launched
+2025-10-22 00:31:46,943 - DEBUG - Creating new context
+2025-10-22 00:31:46,985 - DEBUG - Context created
+2025-10-22 00:31:46,985 - DEBUG - Creating new page
+2025-10-22 00:31:47,317 - DEBUG - Page created
+2025-10-22 00:31:47,317 - DEBUG - Navigating to login page
+2025-10-22 00:31:49,733 - DEBUG - Navigation completed
+2025-10-22 00:31:49,733 - DEBUG - Filling login
+2025-10-22 00:31:50,056 - DEBUG - Filling password
+2025-10-22 00:31:50,251 - DEBUG - Clicking login button
+2025-10-22 00:31:50,304 - DEBUG - Clicking nav issues
+2025-10-22 00:31:51,309 - DEBUG - Waiting for loader to disappear
+2025-10-22 00:31:53,891 - DEBUG - Loader disappeared
+2025-10-22 00:31:53,891 - DEBUG - Clicking search textbox
+2025-10-22 00:31:53,969 - DEBUG - Filling search with 367001
+2025-10-22 00:31:53,988 - DEBUG - Finding claim number element
+2025-10-22 00:31:55,699 - DEBUG - РљРѕРѕСЂРґРёРЅР°С‚С‹ СЌР»РµРјРµРЅС‚Р°: x=272.296875, y=362.59375, С€РёСЂРёРЅР°=66.859375, РІС‹СЃРѕС‚Р°=148
+2025-10-22 00:31:55,699 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-10-22 00:31:55,721 - DEBUG - вњ… РљР»РёРє РІС‹РїРѕР»РЅРµРЅ РІ С‚РѕС‡РєСѓ: (359.15625, 456.59375)
+2025-10-22 00:31:55,721 - DEBUG - Clicking Comments tab
+2025-10-22 00:31:56,594 - DEBUG - Waiting for upload area to appear
+2025-10-22 00:31:57,944 - DEBUG - Upload area appeared
+2025-10-22 00:31:57,944 - DEBUG - Setting input files
+2025-10-22 00:31:57,982 - DEBUG - рџ“Ѓ Р¤Р°Р№Р» '367001-3.jpg' СѓСЃРїРµС€РЅРѕ СѓСЃС‚Р°РЅРѕРІР»РµРЅ!
+2025-10-22 00:31:57,992 - DEBUG - вњ… Р¤Р°Р№Р» РѕС‚РѕР±СЂР°Р·РёР»СЃСЏ РІ СЃРїРёСЃРєРµ Р·Р°РіСЂСѓР¶РµРЅРЅС‹С…!
+2025-10-22 00:31:57,992 - DEBUG - Sleeping for 5 seconds
+2025-10-22 00:33:15,110 - DEBUG - Using proactor: IocpProactor
+2025-10-22 00:33:15,995 - DEBUG - Launching browser
+2025-10-22 00:33:16,310 - DEBUG - Browser launched
+2025-10-22 00:33:16,310 - DEBUG - Creating new context
+2025-10-22 00:33:16,325 - DEBUG - Context created
+2025-10-22 00:33:16,326 - DEBUG - Creating new page
+2025-10-22 00:33:16,712 - DEBUG - Page created
+2025-10-22 00:33:16,712 - DEBUG - Navigating to login page
+2025-10-22 00:33:19,533 - DEBUG - Navigation completed
+2025-10-22 00:33:19,533 - DEBUG - Filling login
+2025-10-22 00:33:19,938 - DEBUG - Filling password
+2025-10-22 00:33:20,042 - DEBUG - Clicking login button
+2025-10-22 00:33:20,100 - DEBUG - Clicking nav issues
+2025-10-22 00:33:21,097 - DEBUG - Waiting for loader to disappear
+2025-10-22 00:33:23,646 - DEBUG - Loader disappeared
+2025-10-22 00:33:23,646 - DEBUG - Clicking search textbox
+2025-10-22 00:33:23,726 - DEBUG - Filling search with 367001
+2025-10-22 00:33:23,745 - DEBUG - Finding claim number element
+2025-10-22 00:33:25,437 - DEBUG - РљРѕРѕСЂРґРёРЅР°С‚С‹ СЌР»РµРјРµРЅС‚Р°: x=272.296875, y=362.59375, С€РёСЂРёРЅР°=66.859375, РІС‹СЃРѕС‚Р°=148
+2025-10-22 00:33:25,438 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-10-22 00:33:25,457 - DEBUG - вњ… РљР»РёРє РІС‹РїРѕР»РЅРµРЅ РІ С‚РѕС‡РєСѓ: (359.15625, 456.59375)
+2025-10-22 00:33:25,457 - DEBUG - Clicking Comments tab
+2025-10-22 00:33:25,892 - DEBUG - Waiting for upload area to appear
+2025-10-22 00:33:27,247 - DEBUG - Upload area appeared
+2025-10-22 00:33:27,247 - DEBUG - Setting input files
+2025-10-22 00:33:27,270 - DEBUG - рџ“Ѓ Р¤Р°Р№Р» '367001-3.jpg' СѓСЃРїРµС€РЅРѕ СѓСЃС‚Р°РЅРѕРІР»РµРЅ!

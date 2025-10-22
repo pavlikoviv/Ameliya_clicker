@@ -1,0 +1,15 @@
+{
+  "cookies": [
+    {
+      "name": "OCTOPUS173322478",
+      "value": "ezVGQURGREExLTJFNDUtNDNGQS05N0Y5LTg3NENFQ0EwOUI3OX0%3D",
+      "domain": "172.16.1.10",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
