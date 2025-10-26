@@ -18,6 +18,9 @@ debug.log
 # Environment variables
 .env
 
+# Images
+*.jpg
+
 # Playwright
 test-results/
 playwright-report/
