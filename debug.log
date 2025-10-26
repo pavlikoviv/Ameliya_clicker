@@ -497,3 +497,1129 @@
 2025-10-22 00:33:27,247 - DEBUG - Upload area appeared
 2025-10-22 00:33:27,247 - DEBUG - Setting input files
 2025-10-22 00:33:27,270 - DEBUG - 📁 Файл '367001-3.jpg' успешно установлен!
+2025-10-26 23:12:25,027 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.18:5000
+2025-10-26 23:12:25,039 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-26 23:13:27,124 - INFO - 127.0.0.1 - - [26/Oct/2025 23:13:27] "POST /run_autoclicker HTTP/1.1" 200 -
+2025-10-26 23:13:27,129 - DEBUG - Downloading '111222.jpg' from S3 bucket 'claimbotphoto' to 'C:\Users\GaneshPC\AppData\Local\Temp\tmplwn7h9tz.jpg'
+2025-10-26 23:13:27,131 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-10-26 23:13:27,135 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-10-26 23:13:27,138 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-10-26 23:13:27,141 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-10-26 23:13:27,141 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-10-26 23:13:27,142 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-10-26 23:13:27,143 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-10-26 23:13:27,147 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-10-26 23:13:27,147 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-10-26 23:13:27,148 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-10-26 23:13:27,148 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-10-26 23:13:27,242 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\endpoints.json
+2025-10-26 23:13:27,284 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\sdk-default-configuration.json
+2025-10-26 23:13:27,284 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001A99DCCA290>
+2025-10-26 23:13:27,396 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2025-10-26 23:13:27,420 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\s3\2006-03-01\service-2.sdk-extras.json
+2025-10-26 23:13:27,524 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2025-10-26 23:13:27,544 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\partitions.json
+2025-10-26 23:13:27,547 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001A99DC32050>
+2025-10-26 23:13:27,547 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001A99F68B9A0>
+2025-10-26 23:13:28,155 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001A99DC31E10>
+2025-10-26 23:13:28,158 - DEBUG - Setting s3 timeout as (60, 60)
+2025-10-26 23:13:28,178 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\_retry.json
+2025-10-26 23:13:28,179 - DEBUG - Registering retry handlers for service: s3
+2025-10-26 23:13:28,180 - DEBUG - Registering S3 region redirector handler
+2025-10-26 23:13:28,180 - DEBUG - Registering S3Express Identity Resolver
+2025-10-26 23:13:28,181 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2025-10-26 23:13:28,181 - DEBUG - Using default client. pid: 19492, thread: 13796
+2025-10-26 23:13:28,181 - DEBUG - Acquiring 0
+2025-10-26 23:13:28,182 - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001A9A097C670>}) about to wait for the following futures []
+2025-10-26 23:13:28,182 - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001A9A097C670>}) done waiting for dependent futures
+2025-10-26 23:13:28,182 - DEBUG - Executing task DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001A9A097C670>}) with kwargs {'client': <botocore.client.S3 object at 0x000001A9A080AD10>, 'config': <boto3.s3.transfer.TransferConfig object at 0x000001A9A080ADD0>, 'osutil': <s3transfer.utils.OSUtils object at 0x000001A9A0967A90>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x000001A9A0967C70>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001A9A097C670>, 'io_executor': <s3transfer.futures.BoundedExecutor object at 0x000001A9A0967D00>}
+2025-10-26 23:13:28,182 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x000001A99DCCBEB0>
+2025-10-26 23:13:28,182 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x000001A99DCCBE20>
+2025-10-26 23:13:28,183 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x000001A99DCEDE10>
+2025-10-26 23:13:28,183 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000001A9A0967940>>
+2025-10-26 23:13:28,183 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x000001A99F714400>>
+2025-10-26 23:13:28,183 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x000001A99DCCBC70>
+2025-10-26 23:13:28,183 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function _handle_request_validation_mode_member at 0x000001A99DCEE440>
+2025-10-26 23:13:28,183 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001A99DCEDFC0>
+2025-10-26 23:13:28,184 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001A9A0967940>>
+2025-10-26 23:13:28,184 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'claimbotphoto', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://172.16.1.28:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '111222.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-10-26 23:13:28,185 - DEBUG - Endpoint provider result: http://172.16.1.28:9000/claimbotphoto
+2025-10-26 23:13:28,185 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-10-26 23:13:28,185 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-10-26 23:13:28,186 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x000001A99DCEC1F0>
+2025-10-26 23:13:28,186 - DEBUG - Event before-call.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001A9A09679D0>>
+2025-10-26 23:13:28,186 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_recursion_detection_header at 0x000001A99DCCB7F0>
+2025-10-26 23:13:28,186 - DEBUG - Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x000001A99DCED510>
+2025-10-26 23:13:28,186 - DEBUG - Making request for OperationModel(name=HeadObject) with params: {'url_path': '/111222.jpg', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/D,N,G,e,Z,b cfg/retry-mode#legacy Botocore/1.40.59'}, 'body': b'', 'auth_path': '/claimbotphoto/111222.jpg', 'url': 'http://172.16.1.28:9000/claimbotphoto/111222.jpg', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001A9A080A9E0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'claimbotphoto', 'params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}}, 'input_params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2025-10-26 23:13:28,189 - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_not_transferring at 0x000001A9A08CD630>
+2025-10-26 23:13:28,189 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001A9A080A920>>
+2025-10-26 23:13:28,189 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001A99F714400>>
+2025-10-26 23:13:28,189 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x000001A99DCCBA30>
+2025-10-26 23:13:28,190 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function remove_arn_from_signing_path at 0x000001A99DCEDF30>
+2025-10-26 23:13:28,190 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x000001A99DCEE4D0>
+2025-10-26 23:13:28,190 - DEBUG - Event before-sign.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000001A9A09679D0>>
+2025-10-26 23:13:28,190 - DEBUG - Calculating signature using v4 auth.
+2025-10-26 23:13:28,190 - DEBUG - CanonicalRequest:
+HEAD
+/claimbotphoto/111222.jpg
+
+host:172.16.1.28:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20251026T201328Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-10-26 23:13:28,190 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20251026T201328Z
+20251026/us-east-1/s3/aws4_request
+bbf2038eb86f91ffa0c9d5194cbcc99a8f8cc20f5460c9f0caaefdd7d57e5d39
+2025-10-26 23:13:28,191 - DEBUG - Signature:
+42a8d14f93a5c80aa71c4a97ad9b4700e02238ddfc594dae80b680633d1eb67b
+2025-10-26 23:13:28,191 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x000001A9A0967340>>
+2025-10-26 23:13:28,191 - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_transferring at 0x000001A9A08CD5A0>
+2025-10-26 23:13:28,191 - DEBUG - Event request-created.s3.HeadObject: calling handler <function add_retry_headers at 0x000001A99DCEDD80>
+2025-10-26 23:13:28,191 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=http://172.16.1.28:9000/claimbotphoto/111222.jpg, headers={'User-Agent': b'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/D,N,G,e,Z,b cfg/retry-mode#legacy Botocore/1.40.59', 'X-Amz-Date': b'20251026T201328Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=minioadmin/20251026/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=42a8d14f93a5c80aa71c4a97ad9b4700e02238ddfc594dae80b680633d1eb67b', 'amz-sdk-invocation-id': b'1ea12cc5-8ece-4aff-97da-69e078cb5e37', 'amz-sdk-request': b'attempt=1'}>
+2025-10-26 23:13:28,192 - DEBUG - Starting new HTTP connection (1): 172.16.1.28:9000
+2025-10-26 23:13:28,264 - DEBUG - http://172.16.1.28:9000 "HEAD /claimbotphoto/111222.jpg HTTP/1.1" 200 0
+2025-10-26 23:13:28,264 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function _handle_200_error at 0x000001A99DCEE290>
+2025-10-26 23:13:28,264 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function handle_expires_header at 0x000001A99DCEE0E0>
+2025-10-26 23:13:28,265 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '37841', 'Content-Type': 'image/jpeg', 'ETag': '"bdd158420635b0319a63ab6643e96dd4"', 'Last-Modified': 'Sun, 26 Oct 2025 19:26:21 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '187223A9754BEC5B', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '1693', 'X-Ratelimit-Remaining': '1693', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 26 Oct 2025 20:13:34 GMT'}
+2025-10-26 23:13:28,265 - DEBUG - Response body:
+b''
+2025-10-26 23:13:28,269 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <function _update_status_code at 0x000001A99DCEE3B0>
+2025-10-26 23:13:28,269 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000001A9A0967880>
+2025-10-26 23:13:28,269 - DEBUG - No retry needed.
+2025-10-26 23:13:28,269 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001A9A0967940>>
+2025-10-26 23:13:28,270 - DEBUG - Submitting task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x000001A9A0967C70> for transfer request: 0.
+2025-10-26 23:13:28,270 - DEBUG - Acquiring 0
+2025-10-26 23:13:28,271 - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) about to wait for the following futures []
+2025-10-26 23:13:28,271 - DEBUG - Releasing acquire 0/None
+2025-10-26 23:13:28,271 - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) done waiting for dependent futures
+2025-10-26 23:13:28,271 - DEBUG - Executing task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x000001A9A080AD10>, 'bucket': 'claimbotphoto', 'key': '111222.jpg', 'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000001A9A097DC00>, 'extra_args': {}, 'callbacks': [], 'max_attempts': 5, 'download_output_manager': <s3transfer.download.DownloadFilenameOutputManager object at 0x000001A9A097CA90>, 'io_chunksize': 262144, 'bandwidth_limiter': None}
+2025-10-26 23:13:28,272 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000001A99DCCBEB0>
+2025-10-26 23:13:28,272 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000001A99DCCBE20>
+2025-10-26 23:13:28,272 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x000001A99DCEDE10>
+2025-10-26 23:13:28,272 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000001A9A0967940>>
+2025-10-26 23:13:28,272 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x000001A99F714400>>
+2025-10-26 23:13:28,272 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000001A99DCCBC70>
+2025-10-26 23:13:28,272 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x000001A99DCEE440>
+2025-10-26 23:13:28,273 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001A99DCEDFC0>
+2025-10-26 23:13:28,273 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001A9A0967940>>
+2025-10-26 23:13:28,273 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'claimbotphoto', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://172.16.1.28:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '111222.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-10-26 23:13:28,273 - DEBUG - Endpoint provider result: http://172.16.1.28:9000/claimbotphoto
+2025-10-26 23:13:28,273 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-10-26 23:13:28,273 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-10-26 23:13:28,274 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x000001A99DCEC1F0>
+2025-10-26 23:13:28,274 - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001A9A09679D0>>
+2025-10-26 23:13:28,274 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x000001A99DCCB7F0>
+2025-10-26 23:13:28,274 - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x000001A99DCED510>
+2025-10-26 23:13:28,274 - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/111222.jpg', 'query_string': {}, 'method': 'GET', 'headers': {'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/D,N,G,e,Z,b cfg/retry-mode#legacy Botocore/1.40.59'}, 'body': b'', 'auth_path': '/claimbotphoto/111222.jpg', 'url': 'http://172.16.1.28:9000/claimbotphoto/111222.jpg', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001A9A080A9E0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'claimbotphoto', 'params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256']}}}
+2025-10-26 23:13:28,274 - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_not_transferring at 0x000001A9A08CD630>
+2025-10-26 23:13:28,275 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001A9A080A920>>
+2025-10-26 23:13:28,275 - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001A99F714400>>
+2025-10-26 23:13:28,275 - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x000001A99DCCBA30>
+2025-10-26 23:13:28,275 - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x000001A99DCEDF30>
+2025-10-26 23:13:28,275 - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x000001A99DCEE4D0>
+2025-10-26 23:13:28,275 - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000001A9A09679D0>>
+2025-10-26 23:13:28,275 - DEBUG - Calculating signature using v4 auth.
+2025-10-26 23:13:28,276 - DEBUG - CanonicalRequest:
+GET
+/claimbotphoto/111222.jpg
+
+host:172.16.1.28:9000
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20251026T201328Z
+
+host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-10-26 23:13:28,276 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20251026T201328Z
+20251026/us-east-1/s3/aws4_request
+d4e12611304a64649779beafdc45ac720f1ba45cd07f99cd9c0fe97a2e00daac
+2025-10-26 23:13:28,276 - DEBUG - Signature:
+85fe08863dd2a8ac2017da129a2b02a5c21dd139147c78c393e03dd0d93ed1e0
+2025-10-26 23:13:28,276 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x000001A9A0967340>>
+2025-10-26 23:13:28,276 - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_transferring at 0x000001A9A08CD5A0>
+2025-10-26 23:13:28,276 - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x000001A99DCEDD80>
+2025-10-26 23:13:28,276 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=http://172.16.1.28:9000/claimbotphoto/111222.jpg, headers={'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/D,N,G,e,Z,b cfg/retry-mode#legacy Botocore/1.40.59', 'X-Amz-Date': b'20251026T201328Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=minioadmin/20251026/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date, Signature=85fe08863dd2a8ac2017da129a2b02a5c21dd139147c78c393e03dd0d93ed1e0', 'amz-sdk-invocation-id': b'0e8d4c75-bf25-4790-9006-69ccf09d7ae2', 'amz-sdk-request': b'attempt=1'}>
+2025-10-26 23:13:28,287 - DEBUG - http://172.16.1.28:9000 "GET /claimbotphoto/111222.jpg HTTP/1.1" 200 37841
+2025-10-26 23:13:28,287 - DEBUG - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+2025-10-26 23:13:28,288 - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x000001A99DCEE290>
+2025-10-26 23:13:28,288 - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x000001A99DCEE0E0>
+2025-10-26 23:13:28,288 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '37841', 'Content-Type': 'image/jpeg', 'ETag': '"bdd158420635b0319a63ab6643e96dd4"', 'Last-Modified': 'Sun, 26 Oct 2025 19:26:21 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '187223A979800ABA', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '1693', 'X-Ratelimit-Remaining': '1693', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 26 Oct 2025 20:13:35 GMT'}
+2025-10-26 23:13:28,288 - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x000001A9A097F6D0>
+2025-10-26 23:13:28,289 - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x000001A99DCEE3B0>
+2025-10-26 23:13:28,289 - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000001A9A0967880>
+2025-10-26 23:13:28,289 - DEBUG - No retry needed.
+2025-10-26 23:13:28,289 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001A9A0967940>>
+2025-10-26 23:13:28,298 - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) about to wait for the following futures []
+2025-10-26 23:13:28,298 - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) done waiting for dependent futures
+2025-10-26 23:13:28,298 - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 0}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000001A9A097DC00>, 'offset': 0}
+2025-10-26 23:13:28,299 - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmplwn7h9tz.jpg'}) about to wait for the following futures []
+2025-10-26 23:13:28,299 - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmplwn7h9tz.jpg'}) done waiting for dependent futures
+2025-10-26 23:13:28,299 - DEBUG - Executing task IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmplwn7h9tz.jpg'}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000001A9A097DC00>, 'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmplwn7h9tz.jpg', 'osutil': <s3transfer.utils.OSUtils object at 0x000001A9A0967A90>}
+2025-10-26 23:13:28,300 - DEBUG - Releasing acquire 0/None
+2025-10-26 23:13:28,301 - DEBUG - File downloaded successfully from S3
+2025-10-26 23:13:28,301 - DEBUG - Using proactor: IocpProactor
+2025-10-26 23:13:40,088 - DEBUG - Launching browser
+2025-10-26 23:13:41,944 - DEBUG - Browser launched
+2025-10-26 23:13:41,944 - DEBUG - Creating new context
+2025-10-26 23:13:41,985 - DEBUG - Context created
+2025-10-26 23:13:41,986 - DEBUG - Creating new page
+2025-10-26 23:13:42,405 - DEBUG - Page created
+2025-10-26 23:13:42,405 - DEBUG - Navigating to login page
+2025-10-26 23:13:44,057 - DEBUG - Navigation completed
+2025-10-26 23:13:44,057 - DEBUG - Filling login
+2025-10-26 23:13:44,450 - DEBUG - Filling password
+2025-10-26 23:13:44,583 - DEBUG - Clicking login button
+2025-10-26 23:13:44,640 - DEBUG - Clicking nav issues
+2025-10-26 23:13:47,106 - DEBUG - Waiting for loader to disappear
+2025-10-26 23:13:49,551 - DEBUG - Loader disappeared
+2025-10-26 23:13:49,551 - DEBUG - Clicking search textbox
+2025-10-26 23:13:49,623 - DEBUG - Filling search with 367001
+2025-10-26 23:13:49,645 - DEBUG - Finding claim number element
+2025-10-26 23:13:51,379 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-10-26 23:13:51,379 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-10-26 23:13:51,414 - DEBUG - ✅ Клик выполнен в точку: (359.15625, 456.59375)
+2025-10-26 23:13:51,414 - DEBUG - Clicking Comments tab
+2025-10-26 23:13:51,864 - DEBUG - Waiting for upload area to appear
+2025-10-26 23:13:53,196 - DEBUG - Upload area appeared
+2025-10-26 23:13:53,196 - DEBUG - Setting input files
+2025-10-26 23:13:53,233 - DEBUG - 📁 Файл 'C:\Users\GaneshPC\AppData\Local\Temp\tmplwn7h9tz.jpg' успешно установлен!
+2025-10-26 23:13:53,248 - DEBUG - ✅ Файл отобразился в списке загруженных!
+2025-10-26 23:13:53,248 - DEBUG - Sleeping for 5 seconds
+2025-10-26 23:14:13,262 - DEBUG - Closing context
+2025-10-26 23:14:13,327 - DEBUG - Closing browser
+2025-10-26 23:14:13,693 - DEBUG - Browser closed
+2025-10-26 23:14:13,720 - DEBUG - Temporary file 'C:\Users\GaneshPC\AppData\Local\Temp\tmplwn7h9tz.jpg' deleted.
+2025-10-26 23:17:36,900 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.18:5000
+2025-10-26 23:17:36,900 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-26 23:17:44,813 - INFO - 127.0.0.1 - - [26/Oct/2025 23:17:44] "POST /run_autoclicker HTTP/1.1" 200 -
+2025-10-26 23:17:44,814 - DEBUG - Downloading '111222.jpg' from S3 bucket 'claimbotphoto' to 'C:\Users\GaneshPC\AppData\Local\Temp\tmp69t_j97y\111222.jpg'
+2025-10-26 23:17:44,815 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-10-26 23:17:44,819 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-10-26 23:17:44,820 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-10-26 23:17:44,821 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-10-26 23:17:44,822 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-10-26 23:17:44,822 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-10-26 23:17:44,823 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-10-26 23:17:44,826 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-10-26 23:17:44,826 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-10-26 23:17:44,827 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-10-26 23:17:44,827 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-10-26 23:17:44,868 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\endpoints.json
+2025-10-26 23:17:44,894 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\sdk-default-configuration.json
+2025-10-26 23:17:44,894 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x00000275DC7CA290>
+2025-10-26 23:17:44,994 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2025-10-26 23:17:45,007 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\s3\2006-03-01\service-2.sdk-extras.json
+2025-10-26 23:17:45,101 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2025-10-26 23:17:45,109 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\partitions.json
+2025-10-26 23:17:45,112 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x00000275DC732050>
+2025-10-26 23:17:45,112 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x00000275DE48B9A0>
+2025-10-26 23:17:45,152 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x00000275DC731E10>
+2025-10-26 23:17:45,155 - DEBUG - Setting s3 timeout as (60, 60)
+2025-10-26 23:17:45,160 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\_retry.json
+2025-10-26 23:17:45,161 - DEBUG - Registering retry handlers for service: s3
+2025-10-26 23:17:45,161 - DEBUG - Registering S3 region redirector handler
+2025-10-26 23:17:45,162 - DEBUG - Registering S3Express Identity Resolver
+2025-10-26 23:17:45,162 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2025-10-26 23:17:45,162 - DEBUG - Using default client. pid: 21280, thread: 16336
+2025-10-26 23:17:45,163 - DEBUG - Acquiring 0
+2025-10-26 23:17:45,163 - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000275DF77C610>}) about to wait for the following futures []
+2025-10-26 23:17:45,163 - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000275DF77C610>}) done waiting for dependent futures
+2025-10-26 23:17:45,164 - DEBUG - Executing task DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000275DF77C610>}) with kwargs {'client': <botocore.client.S3 object at 0x00000275DF606CB0>, 'config': <boto3.s3.transfer.TransferConfig object at 0x00000275DF606D70>, 'osutil': <s3transfer.utils.OSUtils object at 0x00000275DF767A30>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x00000275DF767C10>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000275DF77C610>, 'io_executor': <s3transfer.futures.BoundedExecutor object at 0x00000275DF767CA0>}
+2025-10-26 23:17:45,164 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x00000275DC7CBEB0>
+2025-10-26 23:17:45,164 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x00000275DC7CBE20>
+2025-10-26 23:17:45,164 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000275DC7EDE10>
+2025-10-26 23:17:45,164 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000275DF7678E0>>
+2025-10-26 23:17:45,164 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x00000275DE5183A0>>
+2025-10-26 23:17:45,165 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x00000275DC7CBC70>
+2025-10-26 23:17:45,165 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function _handle_request_validation_mode_member at 0x00000275DC7EE440>
+2025-10-26 23:17:45,165 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000275DC7EDFC0>
+2025-10-26 23:17:45,165 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000275DF7678E0>>
+2025-10-26 23:17:45,165 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'claimbotphoto', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://172.16.1.28:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '111222.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-10-26 23:17:45,167 - DEBUG - Endpoint provider result: http://172.16.1.28:9000/claimbotphoto
+2025-10-26 23:17:45,167 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-10-26 23:17:45,167 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-10-26 23:17:45,167 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x00000275DC7EC1F0>
+2025-10-26 23:17:45,168 - DEBUG - Event before-call.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000275DF767970>>
+2025-10-26 23:17:45,168 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_recursion_detection_header at 0x00000275DC7CB7F0>
+2025-10-26 23:17:45,168 - DEBUG - Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x00000275DC7ED510>
+2025-10-26 23:17:45,168 - DEBUG - Making request for OperationModel(name=HeadObject) with params: {'url_path': '/111222.jpg', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/b,G,N,Z,D,e cfg/retry-mode#legacy Botocore/1.40.59'}, 'body': b'', 'auth_path': '/claimbotphoto/111222.jpg', 'url': 'http://172.16.1.28:9000/claimbotphoto/111222.jpg', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x00000275DF606980>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'claimbotphoto', 'params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}}, 'input_params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2025-10-26 23:17:45,168 - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_not_transferring at 0x00000275DF6CD630>
+2025-10-26 23:17:45,169 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000275DF6068C0>>
+2025-10-26 23:17:45,169 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x00000275DE5183A0>>
+2025-10-26 23:17:45,169 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x00000275DC7CBA30>
+2025-10-26 23:17:45,169 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function remove_arn_from_signing_path at 0x00000275DC7EDF30>
+2025-10-26 23:17:45,169 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x00000275DC7EE4D0>
+2025-10-26 23:17:45,169 - DEBUG - Event before-sign.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000275DF767970>>
+2025-10-26 23:17:45,169 - DEBUG - Calculating signature using v4 auth.
+2025-10-26 23:17:45,169 - DEBUG - CanonicalRequest:
+HEAD
+/claimbotphoto/111222.jpg
+
+host:172.16.1.28:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20251026T201745Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-10-26 23:17:45,170 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20251026T201745Z
+20251026/us-east-1/s3/aws4_request
+00ab3f98393bb6ade244f23af8571d01527f55291a2c083e577660bdc160c855
+2025-10-26 23:17:45,170 - DEBUG - Signature:
+cfe41fd937f3aa1c8e76a48a13190d391d2c21d161a0e9667adc7f4e45d46262
+2025-10-26 23:17:45,170 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x00000275DF7672E0>>
+2025-10-26 23:17:45,170 - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_transferring at 0x00000275DF6CD5A0>
+2025-10-26 23:17:45,170 - DEBUG - Event request-created.s3.HeadObject: calling handler <function add_retry_headers at 0x00000275DC7EDD80>
+2025-10-26 23:17:45,170 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=http://172.16.1.28:9000/claimbotphoto/111222.jpg, headers={'User-Agent': b'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/b,G,N,Z,D,e cfg/retry-mode#legacy Botocore/1.40.59', 'X-Amz-Date': b'20251026T201745Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=minioadmin/20251026/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=cfe41fd937f3aa1c8e76a48a13190d391d2c21d161a0e9667adc7f4e45d46262', 'amz-sdk-invocation-id': b'0eb3295f-629b-42ae-90f3-e5041991d11e', 'amz-sdk-request': b'attempt=1'}>
+2025-10-26 23:17:45,171 - DEBUG - Starting new HTTP connection (1): 172.16.1.28:9000
+2025-10-26 23:17:45,272 - DEBUG - http://172.16.1.28:9000 "HEAD /claimbotphoto/111222.jpg HTTP/1.1" 200 0
+2025-10-26 23:17:45,273 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function _handle_200_error at 0x00000275DC7EE290>
+2025-10-26 23:17:45,273 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function handle_expires_header at 0x00000275DC7EE0E0>
+2025-10-26 23:17:45,273 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '37841', 'Content-Type': 'image/jpeg', 'ETag': '"bdd158420635b0319a63ab6643e96dd4"', 'Last-Modified': 'Sun, 26 Oct 2025 19:26:21 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '187223E54BF27813', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '1693', 'X-Ratelimit-Remaining': '1693', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 26 Oct 2025 20:17:51 GMT'}
+2025-10-26 23:17:45,273 - DEBUG - Response body:
+b''
+2025-10-26 23:17:45,274 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <function _update_status_code at 0x00000275DC7EE3B0>
+2025-10-26 23:17:45,274 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000275DF767820>
+2025-10-26 23:17:45,274 - DEBUG - No retry needed.
+2025-10-26 23:17:45,274 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000275DF7678E0>>
+2025-10-26 23:17:45,274 - DEBUG - Submitting task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x00000275DF767C10> for transfer request: 0.
+2025-10-26 23:17:45,275 - DEBUG - Acquiring 0
+2025-10-26 23:17:45,275 - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) about to wait for the following futures []
+2025-10-26 23:17:45,275 - DEBUG - Releasing acquire 0/None
+2025-10-26 23:17:45,275 - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) done waiting for dependent futures
+2025-10-26 23:17:45,276 - DEBUG - Executing task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x00000275DF606CB0>, 'bucket': 'claimbotphoto', 'key': '111222.jpg', 'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x00000275DF77DBA0>, 'extra_args': {}, 'callbacks': [], 'max_attempts': 5, 'download_output_manager': <s3transfer.download.DownloadFilenameOutputManager object at 0x00000275DF77CA30>, 'io_chunksize': 262144, 'bandwidth_limiter': None}
+2025-10-26 23:17:45,276 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x00000275DC7CBEB0>
+2025-10-26 23:17:45,276 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x00000275DC7CBE20>
+2025-10-26 23:17:45,276 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000275DC7EDE10>
+2025-10-26 23:17:45,276 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000275DF7678E0>>
+2025-10-26 23:17:45,276 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x00000275DE5183A0>>
+2025-10-26 23:17:45,276 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x00000275DC7CBC70>
+2025-10-26 23:17:45,277 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x00000275DC7EE440>
+2025-10-26 23:17:45,277 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000275DC7EDFC0>
+2025-10-26 23:17:45,277 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000275DF7678E0>>
+2025-10-26 23:17:45,277 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'claimbotphoto', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://172.16.1.28:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '111222.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-10-26 23:17:45,277 - DEBUG - Endpoint provider result: http://172.16.1.28:9000/claimbotphoto
+2025-10-26 23:17:45,277 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-10-26 23:17:45,277 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-10-26 23:17:45,278 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x00000275DC7EC1F0>
+2025-10-26 23:17:45,278 - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000275DF767970>>
+2025-10-26 23:17:45,278 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x00000275DC7CB7F0>
+2025-10-26 23:17:45,278 - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x00000275DC7ED510>
+2025-10-26 23:17:45,278 - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/111222.jpg', 'query_string': {}, 'method': 'GET', 'headers': {'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/b,G,N,Z,D,e cfg/retry-mode#legacy Botocore/1.40.59'}, 'body': b'', 'auth_path': '/claimbotphoto/111222.jpg', 'url': 'http://172.16.1.28:9000/claimbotphoto/111222.jpg', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x00000275DF606980>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'claimbotphoto', 'params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256']}}}
+2025-10-26 23:17:45,279 - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_not_transferring at 0x00000275DF6CD630>
+2025-10-26 23:17:45,279 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000275DF6068C0>>
+2025-10-26 23:17:45,279 - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x00000275DE5183A0>>
+2025-10-26 23:17:45,279 - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x00000275DC7CBA30>
+2025-10-26 23:17:45,279 - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x00000275DC7EDF30>
+2025-10-26 23:17:45,279 - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x00000275DC7EE4D0>
+2025-10-26 23:17:45,279 - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000275DF767970>>
+2025-10-26 23:17:45,280 - DEBUG - Calculating signature using v4 auth.
+2025-10-26 23:17:45,280 - DEBUG - CanonicalRequest:
+GET
+/claimbotphoto/111222.jpg
+
+host:172.16.1.28:9000
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20251026T201745Z
+
+host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-10-26 23:17:45,280 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20251026T201745Z
+20251026/us-east-1/s3/aws4_request
+526f8469582422d266c5b32e39acca6b87e40c7c5added16fb584bb458073d53
+2025-10-26 23:17:45,280 - DEBUG - Signature:
+b0e3d3d3c107d5bfc27fa3b0a23e4bddd5529ca2be17ccd7e11407f84bdbfb6d
+2025-10-26 23:17:45,280 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x00000275DF7672E0>>
+2025-10-26 23:17:45,280 - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_transferring at 0x00000275DF6CD5A0>
+2025-10-26 23:17:45,280 - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x00000275DC7EDD80>
+2025-10-26 23:17:45,280 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=http://172.16.1.28:9000/claimbotphoto/111222.jpg, headers={'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/b,G,N,Z,D,e cfg/retry-mode#legacy Botocore/1.40.59', 'X-Amz-Date': b'20251026T201745Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=minioadmin/20251026/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date, Signature=b0e3d3d3c107d5bfc27fa3b0a23e4bddd5529ca2be17ccd7e11407f84bdbfb6d', 'amz-sdk-invocation-id': b'c00d14a4-c2a7-43d9-a8f6-87e026ee2fcc', 'amz-sdk-request': b'attempt=1'}>
+2025-10-26 23:17:45,291 - DEBUG - http://172.16.1.28:9000 "GET /claimbotphoto/111222.jpg HTTP/1.1" 200 37841
+2025-10-26 23:17:45,292 - DEBUG - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+2025-10-26 23:17:45,292 - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x00000275DC7EE290>
+2025-10-26 23:17:45,292 - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x00000275DC7EE0E0>
+2025-10-26 23:17:45,292 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '37841', 'Content-Type': 'image/jpeg', 'ETag': '"bdd158420635b0319a63ab6643e96dd4"', 'Last-Modified': 'Sun, 26 Oct 2025 19:26:21 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '187223E5505AB0DD', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '1693', 'X-Ratelimit-Remaining': '1693', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 26 Oct 2025 20:17:52 GMT'}
+2025-10-26 23:17:45,292 - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x00000275DF77F670>
+2025-10-26 23:17:45,293 - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x00000275DC7EE3B0>
+2025-10-26 23:17:45,293 - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000275DF767820>
+2025-10-26 23:17:45,293 - DEBUG - No retry needed.
+2025-10-26 23:17:45,293 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000275DF7678E0>>
+2025-10-26 23:17:45,306 - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) about to wait for the following futures []
+2025-10-26 23:17:45,306 - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) done waiting for dependent futures
+2025-10-26 23:17:45,307 - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 0}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x00000275DF77DBA0>, 'offset': 0}
+2025-10-26 23:17:45,307 - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmp69t_j97y\\111222.jpg'}) about to wait for the following futures []
+2025-10-26 23:17:45,308 - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmp69t_j97y\\111222.jpg'}) done waiting for dependent futures
+2025-10-26 23:17:45,308 - DEBUG - Executing task IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmp69t_j97y\\111222.jpg'}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x00000275DF77DBA0>, 'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmp69t_j97y\\111222.jpg', 'osutil': <s3transfer.utils.OSUtils object at 0x00000275DF767A30>}
+2025-10-26 23:17:45,309 - DEBUG - Releasing acquire 0/None
+2025-10-26 23:17:45,309 - DEBUG - File downloaded successfully from S3
+2025-10-26 23:17:45,309 - DEBUG - Using proactor: IocpProactor
+2025-10-26 23:17:46,220 - DEBUG - Launching browser
+2025-10-26 23:17:46,574 - DEBUG - Browser launched
+2025-10-26 23:17:46,574 - DEBUG - Creating new context
+2025-10-26 23:17:46,609 - DEBUG - Context created
+2025-10-26 23:17:46,609 - DEBUG - Creating new page
+2025-10-26 23:17:46,899 - DEBUG - Page created
+2025-10-26 23:17:46,899 - DEBUG - Navigating to login page
+2025-10-26 23:17:47,253 - DEBUG - Navigation completed
+2025-10-26 23:17:47,253 - DEBUG - Filling login
+2025-10-26 23:18:17,749 - ERROR - An error occurred during autoclicker task: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#login-input")
+
+2025-10-26 23:18:17,750 - DEBUG - Temporary directory 'C:\Users\GaneshPC\AppData\Local\Temp\tmp69t_j97y' deleted.
+2025-10-26 23:18:26,116 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.18:5000
+2025-10-26 23:18:26,116 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-26 23:18:44,090 - INFO - 127.0.0.1 - - [26/Oct/2025 23:18:44] "POST /run_autoclicker HTTP/1.1" 200 -
+2025-10-26 23:18:44,094 - DEBUG - Downloading '111222.jpg' from S3 bucket 'claimbotphoto' to 'C:\Users\GaneshPC\AppData\Local\Temp\tmpkt4agun_\111222.jpg'
+2025-10-26 23:18:44,095 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-10-26 23:18:44,099 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-10-26 23:18:44,100 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-10-26 23:18:44,103 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-10-26 23:18:44,103 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-10-26 23:18:44,104 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-10-26 23:18:44,105 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-10-26 23:18:44,108 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-10-26 23:18:44,108 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-10-26 23:18:44,108 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-10-26 23:18:44,109 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-10-26 23:18:44,142 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\endpoints.json
+2025-10-26 23:18:44,168 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\sdk-default-configuration.json
+2025-10-26 23:18:44,169 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x00000181951DA290>
+2025-10-26 23:18:44,276 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2025-10-26 23:18:44,290 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\s3\2006-03-01\service-2.sdk-extras.json
+2025-10-26 23:18:44,383 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2025-10-26 23:18:44,389 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\partitions.json
+2025-10-26 23:18:44,393 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x0000018195142050>
+2025-10-26 23:18:44,393 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000018195C8BD00>
+2025-10-26 23:18:44,430 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x0000018195141E10>
+2025-10-26 23:18:44,433 - DEBUG - Setting s3 timeout as (60, 60)
+2025-10-26 23:18:44,439 - DEBUG - Loading JSON file: D:\Programming\Python\Imperator\AutoClicker\.venv\lib\site-packages\botocore\data\_retry.json
+2025-10-26 23:18:44,439 - DEBUG - Registering retry handlers for service: s3
+2025-10-26 23:18:44,440 - DEBUG - Registering S3 region redirector handler
+2025-10-26 23:18:44,440 - DEBUG - Registering S3Express Identity Resolver
+2025-10-26 23:18:44,441 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2025-10-26 23:18:44,441 - DEBUG - Using default client. pid: 10092, thread: 3812
+2025-10-26 23:18:44,441 - DEBUG - Acquiring 0
+2025-10-26 23:18:44,442 - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000018196F7C610>}) about to wait for the following futures []
+2025-10-26 23:18:44,442 - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000018196F7C610>}) done waiting for dependent futures
+2025-10-26 23:18:44,442 - DEBUG - Executing task DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000018196F7C610>}) with kwargs {'client': <botocore.client.S3 object at 0x0000018196E06CB0>, 'config': <boto3.s3.transfer.TransferConfig object at 0x0000018196E06D70>, 'osutil': <s3transfer.utils.OSUtils object at 0x0000018196F67A30>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x0000018196F67C10>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000018196F7C610>, 'io_executor': <s3transfer.futures.BoundedExecutor object at 0x0000018196F67CA0>}
+2025-10-26 23:18:44,442 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x00000181951DBEB0>
+2025-10-26 23:18:44,443 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x00000181951DBE20>
+2025-10-26 23:18:44,443 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000181951FDE10>
+2025-10-26 23:18:44,443 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000018196F678E0>>
+2025-10-26 23:18:44,443 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x0000018195D143A0>>
+2025-10-26 23:18:44,443 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x00000181951DBC70>
+2025-10-26 23:18:44,443 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function _handle_request_validation_mode_member at 0x00000181951FE440>
+2025-10-26 23:18:44,443 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000181951FDFC0>
+2025-10-26 23:18:44,443 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000018196F678E0>>
+2025-10-26 23:18:44,444 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'claimbotphoto', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://172.16.1.28:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '111222.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-10-26 23:18:44,445 - DEBUG - Endpoint provider result: http://172.16.1.28:9000/claimbotphoto
+2025-10-26 23:18:44,445 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-10-26 23:18:44,445 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-10-26 23:18:44,446 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x00000181951FC1F0>
+2025-10-26 23:18:44,446 - DEBUG - Event before-call.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x0000018196F67970>>
+2025-10-26 23:18:44,446 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_recursion_detection_header at 0x00000181951DB7F0>
+2025-10-26 23:18:44,446 - DEBUG - Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x00000181951FD510>
+2025-10-26 23:18:44,446 - DEBUG - Making request for OperationModel(name=HeadObject) with params: {'url_path': '/111222.jpg', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59'}, 'body': b'', 'auth_path': '/claimbotphoto/111222.jpg', 'url': 'http://172.16.1.28:9000/claimbotphoto/111222.jpg', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x0000018196E06980>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'claimbotphoto', 'params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}}, 'input_params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2025-10-26 23:18:44,447 - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_not_transferring at 0x0000018196ECD630>
+2025-10-26 23:18:44,447 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000018196E068C0>>
+2025-10-26 23:18:44,447 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000018195D143A0>>
+2025-10-26 23:18:44,447 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x00000181951DBA30>
+2025-10-26 23:18:44,447 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function remove_arn_from_signing_path at 0x00000181951FDF30>
+2025-10-26 23:18:44,448 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x00000181951FE4D0>
+2025-10-26 23:18:44,448 - DEBUG - Event before-sign.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x0000018196F67970>>
+2025-10-26 23:18:44,448 - DEBUG - Calculating signature using v4 auth.
+2025-10-26 23:18:44,448 - DEBUG - CanonicalRequest:
+HEAD
+/claimbotphoto/111222.jpg
+
+host:172.16.1.28:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20251026T201844Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-10-26 23:18:44,448 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20251026T201844Z
+20251026/us-east-1/s3/aws4_request
+ebfc9576be57135a2f756b3a53df30f1b217e41a9e9dedf4fb04fb3d9fd3a46f
+2025-10-26 23:18:44,449 - DEBUG - Signature:
+b5cf4f915df9291588ef01d5b6f0d1c505adb230754a757136b6bfe913c76028
+2025-10-26 23:18:44,449 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x0000018196F672E0>>
+2025-10-26 23:18:44,449 - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_transferring at 0x0000018196ECD5A0>
+2025-10-26 23:18:44,449 - DEBUG - Event request-created.s3.HeadObject: calling handler <function add_retry_headers at 0x00000181951FDD80>
+2025-10-26 23:18:44,449 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=http://172.16.1.28:9000/claimbotphoto/111222.jpg, headers={'User-Agent': b'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59', 'X-Amz-Date': b'20251026T201844Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=minioadmin/20251026/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=b5cf4f915df9291588ef01d5b6f0d1c505adb230754a757136b6bfe913c76028', 'amz-sdk-invocation-id': b'ed3281cf-7fd2-4a71-baaa-3e9f4ddb4f13', 'amz-sdk-request': b'attempt=1'}>
+2025-10-26 23:18:44,450 - DEBUG - Starting new HTTP connection (1): 172.16.1.28:9000
+2025-10-26 23:18:44,519 - DEBUG - http://172.16.1.28:9000 "HEAD /claimbotphoto/111222.jpg HTTP/1.1" 200 0
+2025-10-26 23:18:44,520 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function _handle_200_error at 0x00000181951FE290>
+2025-10-26 23:18:44,520 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function handle_expires_header at 0x00000181951FE0E0>
+2025-10-26 23:18:44,520 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '37841', 'Content-Type': 'image/jpeg', 'ETag': '"bdd158420635b0319a63ab6643e96dd4"', 'Last-Modified': 'Sun, 26 Oct 2025 19:26:21 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '187223F317766255', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '1693', 'X-Ratelimit-Remaining': '1693', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 26 Oct 2025 20:18:51 GMT'}
+2025-10-26 23:18:44,520 - DEBUG - Response body:
+b''
+2025-10-26 23:18:44,521 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <function _update_status_code at 0x00000181951FE3B0>
+2025-10-26 23:18:44,521 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x0000018196F67820>
+2025-10-26 23:18:44,521 - DEBUG - No retry needed.
+2025-10-26 23:18:44,521 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000018196F678E0>>
+2025-10-26 23:18:44,522 - DEBUG - Submitting task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x0000018196F67C10> for transfer request: 0.
+2025-10-26 23:18:44,522 - DEBUG - Acquiring 0
+2025-10-26 23:18:44,522 - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) about to wait for the following futures []
+2025-10-26 23:18:44,522 - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) done waiting for dependent futures
+2025-10-26 23:18:44,523 - DEBUG - Executing task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x0000018196E06CB0>, 'bucket': 'claimbotphoto', 'key': '111222.jpg', 'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x0000018196F7DBA0>, 'extra_args': {}, 'callbacks': [], 'max_attempts': 5, 'download_output_manager': <s3transfer.download.DownloadFilenameOutputManager object at 0x0000018196F7CA30>, 'io_chunksize': 262144, 'bandwidth_limiter': None}
+2025-10-26 23:18:44,523 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x00000181951DBEB0>
+2025-10-26 23:18:44,523 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x00000181951DBE20>
+2025-10-26 23:18:44,523 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000181951FDE10>
+2025-10-26 23:18:44,523 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000018196F678E0>>
+2025-10-26 23:18:44,523 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x0000018195D143A0>>
+2025-10-26 23:18:44,523 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x00000181951DBC70>
+2025-10-26 23:18:44,524 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x00000181951FE440>
+2025-10-26 23:18:44,524 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000181951FDFC0>
+2025-10-26 23:18:44,524 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000018196F678E0>>
+2025-10-26 23:18:44,524 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'claimbotphoto', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://172.16.1.28:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '111222.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-10-26 23:18:44,524 - DEBUG - Releasing acquire 0/None
+2025-10-26 23:18:44,524 - DEBUG - Endpoint provider result: http://172.16.1.28:9000/claimbotphoto
+2025-10-26 23:18:44,524 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-10-26 23:18:44,524 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-10-26 23:18:44,525 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x00000181951FC1F0>
+2025-10-26 23:18:44,525 - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x0000018196F67970>>
+2025-10-26 23:18:44,525 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x00000181951DB7F0>
+2025-10-26 23:18:44,525 - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x00000181951FD510>
+2025-10-26 23:18:44,525 - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/111222.jpg', 'query_string': {}, 'method': 'GET', 'headers': {'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59'}, 'body': b'', 'auth_path': '/claimbotphoto/111222.jpg', 'url': 'http://172.16.1.28:9000/claimbotphoto/111222.jpg', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x0000018196E06980>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'claimbotphoto', 'params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256']}}}
+2025-10-26 23:18:44,526 - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_not_transferring at 0x0000018196ECD630>
+2025-10-26 23:18:44,526 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000018196E068C0>>
+2025-10-26 23:18:44,526 - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000018195D143A0>>
+2025-10-26 23:18:44,526 - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x00000181951DBA30>
+2025-10-26 23:18:44,526 - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x00000181951FDF30>
+2025-10-26 23:18:44,526 - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x00000181951FE4D0>
+2025-10-26 23:18:44,526 - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x0000018196F67970>>
+2025-10-26 23:18:44,527 - DEBUG - Calculating signature using v4 auth.
+2025-10-26 23:18:44,527 - DEBUG - CanonicalRequest:
+GET
+/claimbotphoto/111222.jpg
+
+host:172.16.1.28:9000
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20251026T201844Z
+
+host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-10-26 23:18:44,527 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20251026T201844Z
+20251026/us-east-1/s3/aws4_request
+cd9105974f3aa657c81d2e8554a751b69de4dd0ff91c21ebce2148e99e9a0efb
+2025-10-26 23:18:44,527 - DEBUG - Signature:
+bc0e05a2a31a064c41ad05cb8b06b7b8fe5b8b041b9f4f2914f0f251402f5899
+2025-10-26 23:18:44,527 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x0000018196F672E0>>
+2025-10-26 23:18:44,527 - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_transferring at 0x0000018196ECD5A0>
+2025-10-26 23:18:44,527 - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x00000181951FDD80>
+2025-10-26 23:18:44,527 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=http://172.16.1.28:9000/claimbotphoto/111222.jpg, headers={'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59', 'X-Amz-Date': b'20251026T201844Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=minioadmin/20251026/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date, Signature=bc0e05a2a31a064c41ad05cb8b06b7b8fe5b8b041b9f4f2914f0f251402f5899', 'amz-sdk-invocation-id': b'017a0276-7c58-4abe-9d55-36b3711f5842', 'amz-sdk-request': b'attempt=1'}>
+2025-10-26 23:18:44,537 - DEBUG - http://172.16.1.28:9000 "GET /claimbotphoto/111222.jpg HTTP/1.1" 200 37841
+2025-10-26 23:18:44,537 - DEBUG - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+2025-10-26 23:18:44,538 - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x00000181951FE290>
+2025-10-26 23:18:44,538 - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x00000181951FE0E0>
+2025-10-26 23:18:44,538 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '37841', 'Content-Type': 'image/jpeg', 'ETag': '"bdd158420635b0319a63ab6643e96dd4"', 'Last-Modified': 'Sun, 26 Oct 2025 19:26:21 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '187223F31BB52747', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '1693', 'X-Ratelimit-Remaining': '1693', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 26 Oct 2025 20:18:51 GMT'}
+2025-10-26 23:18:44,538 - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x0000018196F7F670>
+2025-10-26 23:18:44,539 - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x00000181951FE3B0>
+2025-10-26 23:18:44,539 - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x0000018196F67820>
+2025-10-26 23:18:44,539 - DEBUG - No retry needed.
+2025-10-26 23:18:44,539 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000018196F678E0>>
+2025-10-26 23:18:44,549 - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) about to wait for the following futures []
+2025-10-26 23:18:44,549 - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) done waiting for dependent futures
+2025-10-26 23:18:44,549 - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 0}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x0000018196F7DBA0>, 'offset': 0}
+2025-10-26 23:18:44,550 - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmpkt4agun_\\111222.jpg'}) about to wait for the following futures []
+2025-10-26 23:18:44,550 - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmpkt4agun_\\111222.jpg'}) done waiting for dependent futures
+2025-10-26 23:18:44,550 - DEBUG - Executing task IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmpkt4agun_\\111222.jpg'}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x0000018196F7DBA0>, 'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmpkt4agun_\\111222.jpg', 'osutil': <s3transfer.utils.OSUtils object at 0x0000018196F67A30>}
+2025-10-26 23:18:44,551 - DEBUG - Releasing acquire 0/None
+2025-10-26 23:18:44,552 - DEBUG - File downloaded successfully from S3
+2025-10-26 23:18:44,552 - DEBUG - Using proactor: IocpProactor
+2025-10-26 23:18:45,413 - DEBUG - Launching browser
+2025-10-26 23:18:45,754 - DEBUG - Browser launched
+2025-10-26 23:18:45,754 - DEBUG - Creating new context
+2025-10-26 23:18:45,790 - DEBUG - Context created
+2025-10-26 23:18:45,790 - DEBUG - Creating new page
+2025-10-26 23:18:46,191 - DEBUG - Page created
+2025-10-26 23:18:46,191 - DEBUG - Navigating to login page
+2025-10-26 23:18:48,752 - DEBUG - Navigation completed
+2025-10-26 23:18:48,752 - DEBUG - Filling login
+2025-10-26 23:18:49,008 - DEBUG - Filling password
+2025-10-26 23:18:49,200 - DEBUG - Clicking login button
+2025-10-26 23:18:49,257 - DEBUG - Clicking nav issues
+2025-10-26 23:18:50,209 - DEBUG - Waiting for loader to disappear
+2025-10-26 23:18:52,701 - DEBUG - Loader disappeared
+2025-10-26 23:18:52,701 - DEBUG - Clicking search textbox
+2025-10-26 23:18:52,762 - DEBUG - Filling search with 367001
+2025-10-26 23:18:52,781 - DEBUG - Finding claim number element
+2025-10-26 23:18:55,039 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-10-26 23:18:55,039 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-10-26 23:18:55,060 - DEBUG - ✅ Клик выполнен в точку: (359.15625, 456.59375)
+2025-10-26 23:18:55,060 - DEBUG - Clicking Comments tab
+2025-10-26 23:18:55,944 - DEBUG - Waiting for upload area to appear
+2025-10-26 23:18:57,298 - DEBUG - Upload area appeared
+2025-10-26 23:18:57,298 - DEBUG - Setting input files
+2025-10-26 23:18:57,319 - DEBUG - 📁 Файл 'C:\Users\GaneshPC\AppData\Local\Temp\tmpkt4agun_\111222.jpg' успешно установлен!
+2025-10-26 23:18:57,334 - DEBUG - ✅ Файл отобразился в списке загруженных!
+2025-10-26 23:18:57,334 - DEBUG - Sleeping for 5 seconds
+2025-10-26 23:19:17,336 - DEBUG - Closing context
+2025-10-26 23:19:17,388 - DEBUG - Closing browser
+2025-10-26 23:19:17,718 - DEBUG - Browser closed
+2025-10-26 23:19:17,738 - DEBUG - Temporary directory 'C:\Users\GaneshPC\AppData\Local\Temp\tmpkt4agun_' deleted.
+2025-10-26 23:19:34,944 - INFO - 127.0.0.1 - - [26/Oct/2025 23:19:34] "POST /run_autoclicker HTTP/1.1" 200 -
+2025-10-26 23:19:34,944 - DEBUG - Downloading '111222.jpg' from S3 bucket 'claimbotphoto' to 'C:\Users\GaneshPC\AppData\Local\Temp\tmp7lzyawgp\111222.jpg'
+2025-10-26 23:19:34,944 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x00000181951DA290>
+2025-10-26 23:19:34,949 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x0000018195142050>
+2025-10-26 23:19:34,949 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000018195C8BD00>
+2025-10-26 23:19:34,950 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x0000018195141E10>
+2025-10-26 23:19:34,953 - DEBUG - Setting s3 timeout as (60, 60)
+2025-10-26 23:19:34,956 - DEBUG - Registering retry handlers for service: s3
+2025-10-26 23:19:34,956 - DEBUG - Registering S3 region redirector handler
+2025-10-26 23:19:34,957 - DEBUG - Registering S3Express Identity Resolver
+2025-10-26 23:19:34,957 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2025-10-26 23:19:34,958 - DEBUG - Using default client. pid: 10092, thread: 10520
+2025-10-26 23:19:34,958 - DEBUG - Acquiring 0
+2025-10-26 23:19:34,958 - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000018196F3C970>}) about to wait for the following futures []
+2025-10-26 23:19:34,959 - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000018196F3C970>}) done waiting for dependent futures
+2025-10-26 23:19:34,959 - DEBUG - Executing task DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000018196F3C970>}) with kwargs {'client': <botocore.client.S3 object at 0x0000018196F67D90>, 'config': <boto3.s3.transfer.TransferConfig object at 0x00000181972AD630>, 'osutil': <s3transfer.utils.OSUtils object at 0x00000181972AFF40>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x0000018196F3C130>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000018196F3C970>, 'io_executor': <s3transfer.futures.BoundedExecutor object at 0x0000018196F3C370>}
+2025-10-26 23:19:34,959 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x00000181951DBEB0>
+2025-10-26 23:19:34,959 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x00000181951DBE20>
+2025-10-26 23:19:34,960 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000181951FDE10>
+2025-10-26 23:19:34,960 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000181972AC430>>
+2025-10-26 23:19:34,960 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x00000181972AD030>>
+2025-10-26 23:19:34,960 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x00000181951DBC70>
+2025-10-26 23:19:34,960 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function _handle_request_validation_mode_member at 0x00000181951FE440>
+2025-10-26 23:19:34,960 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000181951FDFC0>
+2025-10-26 23:19:34,960 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000181972AC430>>
+2025-10-26 23:19:34,960 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'claimbotphoto', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://172.16.1.28:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '111222.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-10-26 23:19:34,961 - DEBUG - Endpoint provider result: http://172.16.1.28:9000/claimbotphoto
+2025-10-26 23:19:34,961 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-10-26 23:19:34,961 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-10-26 23:19:34,962 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x00000181951FC1F0>
+2025-10-26 23:19:34,962 - DEBUG - Event before-call.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000181972AC400>>
+2025-10-26 23:19:34,962 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_recursion_detection_header at 0x00000181951DB7F0>
+2025-10-26 23:19:34,962 - DEBUG - Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x00000181951FD510>
+2025-10-26 23:19:34,962 - DEBUG - Making request for OperationModel(name=HeadObject) with params: {'url_path': '/111222.jpg', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59'}, 'body': b'', 'auth_path': '/claimbotphoto/111222.jpg', 'url': 'http://172.16.1.28:9000/claimbotphoto/111222.jpg', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x0000018196F67DC0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'claimbotphoto', 'params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}}, 'input_params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2025-10-26 23:19:34,964 - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_not_transferring at 0x0000018196ECD630>
+2025-10-26 23:19:34,964 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000018196F67B80>>
+2025-10-26 23:19:34,965 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x00000181972AD030>>
+2025-10-26 23:19:34,965 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x00000181951DBA30>
+2025-10-26 23:19:34,965 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function remove_arn_from_signing_path at 0x00000181951FDF30>
+2025-10-26 23:19:34,965 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x00000181951FE4D0>
+2025-10-26 23:19:34,965 - DEBUG - Event before-sign.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000181972AC400>>
+2025-10-26 23:19:34,965 - DEBUG - Calculating signature using v4 auth.
+2025-10-26 23:19:34,965 - DEBUG - CanonicalRequest:
+HEAD
+/claimbotphoto/111222.jpg
+
+host:172.16.1.28:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20251026T201934Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-10-26 23:19:34,965 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20251026T201934Z
+20251026/us-east-1/s3/aws4_request
+f5a399b5fc4ada43487b41ca7adecf4940713ccec38bdf1e94989db7c6054c40
+2025-10-26 23:19:34,966 - DEBUG - Signature:
+e893dafe70646682a94ddc6b5448a6e8028abe15e478236ae21f43adac618cf4
+2025-10-26 23:19:34,966 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x00000181972ADC00>>
+2025-10-26 23:19:34,966 - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_transferring at 0x0000018196ECD5A0>
+2025-10-26 23:19:34,966 - DEBUG - Event request-created.s3.HeadObject: calling handler <function add_retry_headers at 0x00000181951FDD80>
+2025-10-26 23:19:34,966 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=http://172.16.1.28:9000/claimbotphoto/111222.jpg, headers={'User-Agent': b'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59', 'X-Amz-Date': b'20251026T201934Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=minioadmin/20251026/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=e893dafe70646682a94ddc6b5448a6e8028abe15e478236ae21f43adac618cf4', 'amz-sdk-invocation-id': b'aef2f510-d698-4cd4-8d9e-9d18932f9a5a', 'amz-sdk-request': b'attempt=1'}>
+2025-10-26 23:19:34,967 - DEBUG - Starting new HTTP connection (1): 172.16.1.28:9000
+2025-10-26 23:19:35,042 - DEBUG - http://172.16.1.28:9000 "HEAD /claimbotphoto/111222.jpg HTTP/1.1" 200 0
+2025-10-26 23:19:35,043 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function _handle_200_error at 0x00000181951FE290>
+2025-10-26 23:19:35,043 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function handle_expires_header at 0x00000181951FE0E0>
+2025-10-26 23:19:35,043 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '37841', 'Content-Type': 'image/jpeg', 'ETag': '"bdd158420635b0319a63ab6643e96dd4"', 'Last-Modified': 'Sun, 26 Oct 2025 19:26:21 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '187223FEDA91853B', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '1693', 'X-Ratelimit-Remaining': '1693', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 26 Oct 2025 20:19:41 GMT'}
+2025-10-26 23:19:35,043 - DEBUG - Response body:
+b''
+2025-10-26 23:19:35,044 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <function _update_status_code at 0x00000181951FE3B0>
+2025-10-26 23:19:35,044 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000181972AC550>
+2025-10-26 23:19:35,044 - DEBUG - No retry needed.
+2025-10-26 23:19:35,044 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000181972AC430>>
+2025-10-26 23:19:35,045 - DEBUG - Submitting task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x0000018196F3C130> for transfer request: 0.
+2025-10-26 23:19:35,045 - DEBUG - Acquiring 0
+2025-10-26 23:19:35,049 - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) about to wait for the following futures []
+2025-10-26 23:19:35,049 - DEBUG - Releasing acquire 0/None
+2025-10-26 23:19:35,050 - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) done waiting for dependent futures
+2025-10-26 23:19:35,050 - DEBUG - Executing task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x0000018196F67D90>, 'bucket': 'claimbotphoto', 'key': '111222.jpg', 'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x0000018196F3DEA0>, 'extra_args': {}, 'callbacks': [], 'max_attempts': 5, 'download_output_manager': <s3transfer.download.DownloadFilenameOutputManager object at 0x0000018196F3CD90>, 'io_chunksize': 262144, 'bandwidth_limiter': None}
+2025-10-26 23:19:35,051 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x00000181951DBEB0>
+2025-10-26 23:19:35,051 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x00000181951DBE20>
+2025-10-26 23:19:35,051 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000181951FDE10>
+2025-10-26 23:19:35,051 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000181972AC430>>
+2025-10-26 23:19:35,051 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x00000181972AD030>>
+2025-10-26 23:19:35,051 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x00000181951DBC70>
+2025-10-26 23:19:35,051 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x00000181951FE440>
+2025-10-26 23:19:35,052 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000181951FDFC0>
+2025-10-26 23:19:35,052 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000181972AC430>>
+2025-10-26 23:19:35,052 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'claimbotphoto', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://172.16.1.28:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '111222.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-10-26 23:19:35,052 - DEBUG - Endpoint provider result: http://172.16.1.28:9000/claimbotphoto
+2025-10-26 23:19:35,052 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-10-26 23:19:35,052 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-10-26 23:19:35,053 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x00000181951FC1F0>
+2025-10-26 23:19:35,053 - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000181972AC400>>
+2025-10-26 23:19:35,053 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x00000181951DB7F0>
+2025-10-26 23:19:35,053 - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x00000181951FD510>
+2025-10-26 23:19:35,053 - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/111222.jpg', 'query_string': {}, 'method': 'GET', 'headers': {'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59'}, 'body': b'', 'auth_path': '/claimbotphoto/111222.jpg', 'url': 'http://172.16.1.28:9000/claimbotphoto/111222.jpg', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x0000018196F67DC0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'claimbotphoto', 'params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256']}}}
+2025-10-26 23:19:35,054 - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_not_transferring at 0x0000018196ECD630>
+2025-10-26 23:19:35,054 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000018196F67B80>>
+2025-10-26 23:19:35,054 - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x00000181972AD030>>
+2025-10-26 23:19:35,054 - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x00000181951DBA30>
+2025-10-26 23:19:35,054 - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x00000181951FDF30>
+2025-10-26 23:19:35,054 - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x00000181951FE4D0>
+2025-10-26 23:19:35,055 - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000181972AC400>>
+2025-10-26 23:19:35,055 - DEBUG - Calculating signature using v4 auth.
+2025-10-26 23:19:35,055 - DEBUG - CanonicalRequest:
+GET
+/claimbotphoto/111222.jpg
+
+host:172.16.1.28:9000
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20251026T201935Z
+
+host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-10-26 23:19:35,055 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20251026T201935Z
+20251026/us-east-1/s3/aws4_request
+7c9b581ca2feb4e401ff5e002135d887940be9ef4071a6d07e35e4178138591a
+2025-10-26 23:19:35,055 - DEBUG - Signature:
+3d66b513ffeced508826509a1ef09121daa07b6fe19426732a20b17ad9bd9349
+2025-10-26 23:19:35,055 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x00000181972ADC00>>
+2025-10-26 23:19:35,056 - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_transferring at 0x0000018196ECD5A0>
+2025-10-26 23:19:35,056 - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x00000181951FDD80>
+2025-10-26 23:19:35,056 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=http://172.16.1.28:9000/claimbotphoto/111222.jpg, headers={'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59', 'X-Amz-Date': b'20251026T201935Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=minioadmin/20251026/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date, Signature=3d66b513ffeced508826509a1ef09121daa07b6fe19426732a20b17ad9bd9349', 'amz-sdk-invocation-id': b'7503d21d-c938-41cb-8318-dde1c8dbe1a8', 'amz-sdk-request': b'attempt=1'}>
+2025-10-26 23:19:35,077 - DEBUG - http://172.16.1.28:9000 "GET /claimbotphoto/111222.jpg HTTP/1.1" 200 37841
+2025-10-26 23:19:35,077 - DEBUG - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+2025-10-26 23:19:35,077 - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x00000181951FE290>
+2025-10-26 23:19:35,078 - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x00000181951FE0E0>
+2025-10-26 23:19:35,078 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '37841', 'Content-Type': 'image/jpeg', 'ETag': '"bdd158420635b0319a63ab6643e96dd4"', 'Last-Modified': 'Sun, 26 Oct 2025 19:26:21 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '187223FEDF7328CA', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '1693', 'X-Ratelimit-Remaining': '1693', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 26 Oct 2025 20:19:41 GMT'}
+2025-10-26 23:19:35,078 - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x0000018196F3F8E0>
+2025-10-26 23:19:35,079 - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x00000181951FE3B0>
+2025-10-26 23:19:35,079 - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000181972AC550>
+2025-10-26 23:19:35,079 - DEBUG - No retry needed.
+2025-10-26 23:19:35,079 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000181972AC430>>
+2025-10-26 23:19:35,097 - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) about to wait for the following futures []
+2025-10-26 23:19:35,097 - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) done waiting for dependent futures
+2025-10-26 23:19:35,097 - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 0}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x0000018196F3DEA0>, 'offset': 0}
+2025-10-26 23:19:35,098 - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmp7lzyawgp\\111222.jpg'}) about to wait for the following futures []
+2025-10-26 23:19:35,098 - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmp7lzyawgp\\111222.jpg'}) done waiting for dependent futures
+2025-10-26 23:19:35,099 - DEBUG - Executing task IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmp7lzyawgp\\111222.jpg'}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x0000018196F3DEA0>, 'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmp7lzyawgp\\111222.jpg', 'osutil': <s3transfer.utils.OSUtils object at 0x00000181972AFF40>}
+2025-10-26 23:19:35,099 - DEBUG - Releasing acquire 0/None
+2025-10-26 23:19:35,100 - DEBUG - File downloaded successfully from S3
+2025-10-26 23:19:35,100 - DEBUG - Using proactor: IocpProactor
+2025-10-26 23:19:35,966 - DEBUG - Launching browser
+2025-10-26 23:19:36,286 - DEBUG - Browser launched
+2025-10-26 23:19:36,286 - DEBUG - Creating new context
+2025-10-26 23:19:36,320 - DEBUG - Context created
+2025-10-26 23:19:36,320 - DEBUG - Creating new page
+2025-10-26 23:19:36,608 - DEBUG - Page created
+2025-10-26 23:19:36,608 - DEBUG - Navigating to login page
+2025-10-26 23:19:38,015 - DEBUG - Navigation completed
+2025-10-26 23:19:38,015 - DEBUG - Filling login
+2025-10-26 23:19:38,321 - DEBUG - Filling password
+2025-10-26 23:19:38,426 - DEBUG - Clicking login button
+2025-10-26 23:19:38,501 - DEBUG - Clicking nav issues
+2025-10-26 23:19:39,500 - DEBUG - Waiting for loader to disappear
+2025-10-26 23:19:41,949 - DEBUG - Loader disappeared
+2025-10-26 23:19:41,949 - DEBUG - Clicking search textbox
+2025-10-26 23:19:42,038 - DEBUG - Filling search with 367001
+2025-10-26 23:19:42,061 - DEBUG - Finding claim number element
+2025-10-26 23:19:43,786 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-10-26 23:19:43,786 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-10-26 23:19:43,806 - DEBUG - ✅ Клик выполнен в точку: (359.15625, 456.59375)
+2025-10-26 23:19:43,806 - DEBUG - Clicking Comments tab
+2025-10-26 23:19:44,236 - DEBUG - Waiting for upload area to appear
+2025-10-26 23:19:45,574 - DEBUG - Upload area appeared
+2025-10-26 23:19:45,574 - DEBUG - Setting input files
+2025-10-26 23:19:45,595 - DEBUG - 📁 Файл 'C:\Users\GaneshPC\AppData\Local\Temp\tmp7lzyawgp\111222.jpg' успешно установлен!
+2025-10-26 23:19:45,608 - DEBUG - ✅ Файл отобразился в списке загруженных!
+2025-10-26 23:19:45,608 - DEBUG - Sleeping for 5 seconds
+2025-10-26 23:20:00,890 - INFO - 127.0.0.1 - - [26/Oct/2025 23:20:00] "POST /run_autoclicker HTTP/1.1" 200 -
+2025-10-26 23:20:00,893 - DEBUG - Downloading '111222.jpg' from S3 bucket 'claimbotphoto' to 'C:\Users\GaneshPC\AppData\Local\Temp\tmpqw9jw64z\111222.jpg'
+2025-10-26 23:20:00,894 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x00000181951DA290>
+2025-10-26 23:20:00,896 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x0000018195142050>
+2025-10-26 23:20:00,896 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000018195C8BD00>
+2025-10-26 23:20:00,896 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x0000018195141E10>
+2025-10-26 23:20:00,899 - DEBUG - Setting s3 timeout as (60, 60)
+2025-10-26 23:20:00,902 - DEBUG - Registering retry handlers for service: s3
+2025-10-26 23:20:00,902 - DEBUG - Registering S3 region redirector handler
+2025-10-26 23:20:00,903 - DEBUG - Registering S3Express Identity Resolver
+2025-10-26 23:20:00,903 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2025-10-26 23:20:00,903 - DEBUG - Using default client. pid: 10092, thread: 18720
+2025-10-26 23:20:00,903 - DEBUG - Acquiring 0
+2025-10-26 23:20:00,904 - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000181973C4D00>}) about to wait for the following futures []
+2025-10-26 23:20:00,904 - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000181973C4D00>}) done waiting for dependent futures
+2025-10-26 23:20:00,904 - DEBUG - Executing task DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000181973C4D00>}) with kwargs {'client': <botocore.client.S3 object at 0x000001819738AE90>, 'config': <boto3.s3.transfer.TransferConfig object at 0x0000018197375540>, 'osutil': <s3transfer.utils.OSUtils object at 0x00000181973C4310>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x00000181973C44C0>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000181973C4D00>, 'io_executor': <s3transfer.futures.BoundedExecutor object at 0x00000181973C4700>}
+2025-10-26 23:20:00,906 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x00000181951DBEB0>
+2025-10-26 23:20:00,906 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x00000181951DBE20>
+2025-10-26 23:20:00,906 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000181951FDE10>
+2025-10-26 23:20:00,906 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000181973C41C0>>
+2025-10-26 23:20:00,906 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x0000018197375300>>
+2025-10-26 23:20:00,907 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x00000181951DBC70>
+2025-10-26 23:20:00,907 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function _handle_request_validation_mode_member at 0x00000181951FE440>
+2025-10-26 23:20:00,907 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000181951FDFC0>
+2025-10-26 23:20:00,907 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000181973C41C0>>
+2025-10-26 23:20:00,907 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'claimbotphoto', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://172.16.1.28:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '111222.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-10-26 23:20:00,908 - DEBUG - Endpoint provider result: http://172.16.1.28:9000/claimbotphoto
+2025-10-26 23:20:00,908 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-10-26 23:20:00,908 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-10-26 23:20:00,908 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x00000181951FC1F0>
+2025-10-26 23:20:00,909 - DEBUG - Event before-call.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000181973C4250>>
+2025-10-26 23:20:00,909 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_recursion_detection_header at 0x00000181951DB7F0>
+2025-10-26 23:20:00,909 - DEBUG - Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x00000181951FD510>
+2025-10-26 23:20:00,909 - DEBUG - Making request for OperationModel(name=HeadObject) with params: {'url_path': '/111222.jpg', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59'}, 'body': b'', 'auth_path': '/claimbotphoto/111222.jpg', 'url': 'http://172.16.1.28:9000/claimbotphoto/111222.jpg', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001819738B040>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'claimbotphoto', 'params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}}, 'input_params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2025-10-26 23:20:00,910 - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_not_transferring at 0x0000018196ECD630>
+2025-10-26 23:20:00,910 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001819738AFB0>>
+2025-10-26 23:20:00,910 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000018197375300>>
+2025-10-26 23:20:00,910 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x00000181951DBA30>
+2025-10-26 23:20:00,910 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function remove_arn_from_signing_path at 0x00000181951FDF30>
+2025-10-26 23:20:00,910 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x00000181951FE4D0>
+2025-10-26 23:20:00,910 - DEBUG - Event before-sign.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000181973C4250>>
+2025-10-26 23:20:00,910 - DEBUG - Calculating signature using v4 auth.
+2025-10-26 23:20:00,911 - DEBUG - CanonicalRequest:
+HEAD
+/claimbotphoto/111222.jpg
+
+host:172.16.1.28:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20251026T202000Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-10-26 23:20:00,911 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20251026T202000Z
+20251026/us-east-1/s3/aws4_request
+e8b00b9c57f88df2e02c46c4695685b935522aa3cb5f7de227a29587f30d2fd2
+2025-10-26 23:20:00,911 - DEBUG - Signature:
+c08ef0ab02c2741a27d49d3c1fae2f529051d1943ce446dabb0745e4174d7723
+2025-10-26 23:20:00,911 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x00000181973BFB20>>
+2025-10-26 23:20:00,911 - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_transferring at 0x0000018196ECD5A0>
+2025-10-26 23:20:00,911 - DEBUG - Event request-created.s3.HeadObject: calling handler <function add_retry_headers at 0x00000181951FDD80>
+2025-10-26 23:20:00,911 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=http://172.16.1.28:9000/claimbotphoto/111222.jpg, headers={'User-Agent': b'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59', 'X-Amz-Date': b'20251026T202000Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=minioadmin/20251026/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=c08ef0ab02c2741a27d49d3c1fae2f529051d1943ce446dabb0745e4174d7723', 'amz-sdk-invocation-id': b'e90226b0-4133-4dba-8104-4a5dada7026d', 'amz-sdk-request': b'attempt=1'}>
+2025-10-26 23:20:00,912 - DEBUG - Starting new HTTP connection (1): 172.16.1.28:9000
+2025-10-26 23:20:00,974 - DEBUG - http://172.16.1.28:9000 "HEAD /claimbotphoto/111222.jpg HTTP/1.1" 200 0
+2025-10-26 23:20:00,974 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function _handle_200_error at 0x00000181951FE290>
+2025-10-26 23:20:00,974 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function handle_expires_header at 0x00000181951FE0E0>
+2025-10-26 23:20:00,974 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '37841', 'Content-Type': 'image/jpeg', 'ETag': '"bdd158420635b0319a63ab6643e96dd4"', 'Last-Modified': 'Sun, 26 Oct 2025 19:26:21 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '18722404E4F11B36', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '1693', 'X-Ratelimit-Remaining': '1693', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 26 Oct 2025 20:20:07 GMT'}
+2025-10-26 23:20:00,974 - DEBUG - Response body:
+b''
+2025-10-26 23:20:00,975 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <function _update_status_code at 0x00000181951FE3B0>
+2025-10-26 23:20:00,975 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000181973C4100>
+2025-10-26 23:20:00,976 - DEBUG - No retry needed.
+2025-10-26 23:20:00,976 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000181973C41C0>>
+2025-10-26 23:20:00,976 - DEBUG - Submitting task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x00000181973C44C0> for transfer request: 0.
+2025-10-26 23:20:00,976 - DEBUG - Acquiring 0
+2025-10-26 23:20:00,977 - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) about to wait for the following futures []
+2025-10-26 23:20:00,977 - DEBUG - Releasing acquire 0/None
+2025-10-26 23:20:00,977 - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) done waiting for dependent futures
+2025-10-26 23:20:00,977 - DEBUG - Executing task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x000001819738AE90>, 'bucket': 'claimbotphoto', 'key': '111222.jpg', 'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x00000181973C6020>, 'extra_args': {}, 'callbacks': [], 'max_attempts': 5, 'download_output_manager': <s3transfer.download.DownloadFilenameOutputManager object at 0x00000181973C5120>, 'io_chunksize': 262144, 'bandwidth_limiter': None}
+2025-10-26 23:20:00,978 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x00000181951DBEB0>
+2025-10-26 23:20:00,978 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x00000181951DBE20>
+2025-10-26 23:20:00,978 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000181951FDE10>
+2025-10-26 23:20:00,978 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000181973C41C0>>
+2025-10-26 23:20:00,978 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x0000018197375300>>
+2025-10-26 23:20:00,978 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x00000181951DBC70>
+2025-10-26 23:20:00,979 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x00000181951FE440>
+2025-10-26 23:20:00,979 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000181951FDFC0>
+2025-10-26 23:20:00,979 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000181973C41C0>>
+2025-10-26 23:20:00,979 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'claimbotphoto', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://172.16.1.28:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '111222.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-10-26 23:20:00,979 - DEBUG - Endpoint provider result: http://172.16.1.28:9000/claimbotphoto
+2025-10-26 23:20:00,979 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-10-26 23:20:00,979 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-10-26 23:20:00,980 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x00000181951FC1F0>
+2025-10-26 23:20:00,980 - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000181973C4250>>
+2025-10-26 23:20:00,980 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x00000181951DB7F0>
+2025-10-26 23:20:00,980 - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x00000181951FD510>
+2025-10-26 23:20:00,980 - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/111222.jpg', 'query_string': {}, 'method': 'GET', 'headers': {'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59'}, 'body': b'', 'auth_path': '/claimbotphoto/111222.jpg', 'url': 'http://172.16.1.28:9000/claimbotphoto/111222.jpg', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001819738B040>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'claimbotphoto', 'params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256']}}}
+2025-10-26 23:20:00,981 - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_not_transferring at 0x0000018196ECD630>
+2025-10-26 23:20:00,981 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001819738AFB0>>
+2025-10-26 23:20:00,981 - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000018197375300>>
+2025-10-26 23:20:00,981 - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x00000181951DBA30>
+2025-10-26 23:20:00,982 - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x00000181951FDF30>
+2025-10-26 23:20:00,982 - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x00000181951FE4D0>
+2025-10-26 23:20:00,982 - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000181973C4250>>
+2025-10-26 23:20:00,982 - DEBUG - Calculating signature using v4 auth.
+2025-10-26 23:20:00,982 - DEBUG - CanonicalRequest:
+GET
+/claimbotphoto/111222.jpg
+
+host:172.16.1.28:9000
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20251026T202000Z
+
+host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-10-26 23:20:00,982 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20251026T202000Z
+20251026/us-east-1/s3/aws4_request
+4120b951b97baafd98805dbe21110740342be853ef04a954354c0f2280fba9cd
+2025-10-26 23:20:00,982 - DEBUG - Signature:
+b72c9fa406aaf1ac447f94eb884e53a7206df70fadfa33f62d4ba2781dce1f0c
+2025-10-26 23:20:00,983 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x00000181973BFB20>>
+2025-10-26 23:20:00,983 - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_transferring at 0x0000018196ECD5A0>
+2025-10-26 23:20:00,983 - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x00000181951FDD80>
+2025-10-26 23:20:00,983 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=http://172.16.1.28:9000/claimbotphoto/111222.jpg, headers={'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59', 'X-Amz-Date': b'20251026T202000Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=minioadmin/20251026/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date, Signature=b72c9fa406aaf1ac447f94eb884e53a7206df70fadfa33f62d4ba2781dce1f0c', 'amz-sdk-invocation-id': b'387085b0-fc17-4235-9824-935eb8cc36ec', 'amz-sdk-request': b'attempt=1'}>
+2025-10-26 23:20:00,994 - DEBUG - http://172.16.1.28:9000 "GET /claimbotphoto/111222.jpg HTTP/1.1" 200 37841
+2025-10-26 23:20:00,994 - DEBUG - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+2025-10-26 23:20:00,995 - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x00000181951FE290>
+2025-10-26 23:20:00,995 - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x00000181951FE0E0>
+2025-10-26 23:20:00,995 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '37841', 'Content-Type': 'image/jpeg', 'ETag': '"bdd158420635b0319a63ab6643e96dd4"', 'Last-Modified': 'Sun, 26 Oct 2025 19:26:21 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '18722404E8D79014', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '1693', 'X-Ratelimit-Remaining': '1693', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 26 Oct 2025 20:20:07 GMT'}
+2025-10-26 23:20:00,995 - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x00000181973C7A30>
+2025-10-26 23:20:00,996 - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x00000181951FE3B0>
+2025-10-26 23:20:00,996 - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000181973C4100>
+2025-10-26 23:20:00,996 - DEBUG - No retry needed.
+2025-10-26 23:20:00,996 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000181973C41C0>>
+2025-10-26 23:20:01,011 - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) about to wait for the following futures []
+2025-10-26 23:20:01,012 - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) done waiting for dependent futures
+2025-10-26 23:20:01,012 - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 0}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x00000181973C6020>, 'offset': 0}
+2025-10-26 23:20:01,013 - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmpqw9jw64z\\111222.jpg'}) about to wait for the following futures []
+2025-10-26 23:20:01,013 - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmpqw9jw64z\\111222.jpg'}) done waiting for dependent futures
+2025-10-26 23:20:01,013 - DEBUG - Executing task IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmpqw9jw64z\\111222.jpg'}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x00000181973C6020>, 'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmpqw9jw64z\\111222.jpg', 'osutil': <s3transfer.utils.OSUtils object at 0x00000181973C4310>}
+2025-10-26 23:20:01,014 - DEBUG - Releasing acquire 0/None
+2025-10-26 23:20:01,014 - DEBUG - File downloaded successfully from S3
+2025-10-26 23:20:01,014 - DEBUG - Using proactor: IocpProactor
+2025-10-26 23:20:02,235 - DEBUG - Launching browser
+2025-10-26 23:20:02,607 - DEBUG - Browser launched
+2025-10-26 23:20:02,607 - DEBUG - Creating new context
+2025-10-26 23:20:02,648 - DEBUG - Context created
+2025-10-26 23:20:02,648 - DEBUG - Creating new page
+2025-10-26 23:20:02,970 - DEBUG - Page created
+2025-10-26 23:20:02,971 - DEBUG - Navigating to login page
+2025-10-26 23:20:04,361 - DEBUG - Navigation completed
+2025-10-26 23:20:04,361 - DEBUG - Filling login
+2025-10-26 23:20:04,756 - DEBUG - Filling password
+2025-10-26 23:20:04,840 - DEBUG - Clicking login button
+2025-10-26 23:20:04,902 - DEBUG - Clicking nav issues
+2025-10-26 23:20:05,609 - DEBUG - Closing context
+2025-10-26 23:20:05,644 - DEBUG - Closing browser
+2025-10-26 23:20:05,963 - DEBUG - Waiting for loader to disappear
+2025-10-26 23:20:06,632 - DEBUG - Browser closed
+2025-10-26 23:20:06,656 - DEBUG - Temporary directory 'C:\Users\GaneshPC\AppData\Local\Temp\tmp7lzyawgp' deleted.
+2025-10-26 23:20:08,427 - DEBUG - Loader disappeared
+2025-10-26 23:20:08,427 - DEBUG - Clicking search textbox
+2025-10-26 23:20:08,460 - DEBUG - Filling search with 367001
+2025-10-26 23:20:08,478 - DEBUG - Finding claim number element
+2025-10-26 23:20:10,199 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-10-26 23:20:10,199 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-10-26 23:20:10,219 - DEBUG - ✅ Клик выполнен в точку: (359.15625, 456.59375)
+2025-10-26 23:20:10,220 - DEBUG - Clicking Comments tab
+2025-10-26 23:20:10,658 - DEBUG - Waiting for upload area to appear
+2025-10-26 23:20:12,010 - DEBUG - Upload area appeared
+2025-10-26 23:20:12,010 - DEBUG - Setting input files
+2025-10-26 23:20:12,032 - DEBUG - 📁 Файл 'C:\Users\GaneshPC\AppData\Local\Temp\tmpqw9jw64z\111222.jpg' успешно установлен!
+2025-10-26 23:20:12,045 - DEBUG - ✅ Файл отобразился в списке загруженных!
+2025-10-26 23:20:12,045 - DEBUG - Sleeping for 5 seconds
+2025-10-26 23:20:16,340 - INFO - 127.0.0.1 - - [26/Oct/2025 23:20:16] "POST /run_autoclicker HTTP/1.1" 200 -
+2025-10-26 23:20:16,340 - DEBUG - Downloading '111222.jpg' from S3 bucket 'claimbotphoto' to 'C:\Users\GaneshPC\AppData\Local\Temp\tmphk98bit9\111222.jpg'
+2025-10-26 23:20:16,340 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x00000181951DA290>
+2025-10-26 23:20:16,342 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x0000018195142050>
+2025-10-26 23:20:16,342 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000018195C8BD00>
+2025-10-26 23:20:16,342 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x0000018195141E10>
+2025-10-26 23:20:16,345 - DEBUG - Setting s3 timeout as (60, 60)
+2025-10-26 23:20:16,349 - DEBUG - Registering retry handlers for service: s3
+2025-10-26 23:20:16,349 - DEBUG - Registering S3 region redirector handler
+2025-10-26 23:20:16,350 - DEBUG - Registering S3Express Identity Resolver
+2025-10-26 23:20:16,350 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2025-10-26 23:20:16,350 - DEBUG - Using default client. pid: 10092, thread: 8920
+2025-10-26 23:20:16,350 - DEBUG - Acquiring 0
+2025-10-26 23:20:16,351 - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000181976955D0>}) about to wait for the following futures []
+2025-10-26 23:20:16,351 - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000181976955D0>}) done waiting for dependent futures
+2025-10-26 23:20:16,351 - DEBUG - Executing task DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000181976955D0>}) with kwargs {'client': <botocore.client.S3 object at 0x0000018197657DC0>, 'config': <boto3.s3.transfer.TransferConfig object at 0x00000181973F5E70>, 'osutil': <s3transfer.utils.OSUtils object at 0x0000018197694BE0>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x0000018197694D90>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000181976955D0>, 'io_executor': <s3transfer.futures.BoundedExecutor object at 0x0000018197694FD0>}
+2025-10-26 23:20:16,352 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x00000181951DBEB0>
+2025-10-26 23:20:16,352 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x00000181951DBE20>
+2025-10-26 23:20:16,352 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000181951FDE10>
+2025-10-26 23:20:16,352 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000018197694A90>>
+2025-10-26 23:20:16,352 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x00000181973F60E0>>
+2025-10-26 23:20:16,352 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x00000181951DBC70>
+2025-10-26 23:20:16,352 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function _handle_request_validation_mode_member at 0x00000181951FE440>
+2025-10-26 23:20:16,352 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000181951FDFC0>
+2025-10-26 23:20:16,353 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000018197694A90>>
+2025-10-26 23:20:16,353 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'claimbotphoto', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://172.16.1.28:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '111222.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-10-26 23:20:16,353 - DEBUG - Endpoint provider result: http://172.16.1.28:9000/claimbotphoto
+2025-10-26 23:20:16,353 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-10-26 23:20:16,354 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-10-26 23:20:16,354 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x00000181951FC1F0>
+2025-10-26 23:20:16,354 - DEBUG - Event before-call.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x0000018197694B20>>
+2025-10-26 23:20:16,354 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_recursion_detection_header at 0x00000181951DB7F0>
+2025-10-26 23:20:16,354 - DEBUG - Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x00000181951FD510>
+2025-10-26 23:20:16,354 - DEBUG - Making request for OperationModel(name=HeadObject) with params: {'url_path': '/111222.jpg', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59'}, 'body': b'', 'auth_path': '/claimbotphoto/111222.jpg', 'url': 'http://172.16.1.28:9000/claimbotphoto/111222.jpg', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001819766C040>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'claimbotphoto', 'params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}}, 'input_params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2025-10-26 23:20:16,355 - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_not_transferring at 0x0000018196ECD630>
+2025-10-26 23:20:16,355 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000018197657F70>>
+2025-10-26 23:20:16,355 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x00000181973F60E0>>
+2025-10-26 23:20:16,355 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x00000181951DBA30>
+2025-10-26 23:20:16,355 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function remove_arn_from_signing_path at 0x00000181951FDF30>
+2025-10-26 23:20:16,356 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x00000181951FE4D0>
+2025-10-26 23:20:16,356 - DEBUG - Event before-sign.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x0000018197694B20>>
+2025-10-26 23:20:16,356 - DEBUG - Calculating signature using v4 auth.
+2025-10-26 23:20:16,356 - DEBUG - CanonicalRequest:
+HEAD
+/claimbotphoto/111222.jpg
+
+host:172.16.1.28:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20251026T202016Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-10-26 23:20:16,356 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20251026T202016Z
+20251026/us-east-1/s3/aws4_request
+b7866f4198dd72bdee6bd9b9e92aad2b03fc2887438d0f34547a7b036efb968b
+2025-10-26 23:20:16,356 - DEBUG - Signature:
+cbc33d8b1a427c5cdc9c87fe1f0d5686777b4d729c7f79d96074f149aa5983b6
+2025-10-26 23:20:16,356 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x0000018197694490>>
+2025-10-26 23:20:16,357 - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_transferring at 0x0000018196ECD5A0>
+2025-10-26 23:20:16,357 - DEBUG - Event request-created.s3.HeadObject: calling handler <function add_retry_headers at 0x00000181951FDD80>
+2025-10-26 23:20:16,357 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=http://172.16.1.28:9000/claimbotphoto/111222.jpg, headers={'User-Agent': b'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59', 'X-Amz-Date': b'20251026T202016Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=minioadmin/20251026/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=cbc33d8b1a427c5cdc9c87fe1f0d5686777b4d729c7f79d96074f149aa5983b6', 'amz-sdk-invocation-id': b'e0e4bb3b-de22-498c-b785-a0ead60ac357', 'amz-sdk-request': b'attempt=1'}>
+2025-10-26 23:20:16,357 - DEBUG - Starting new HTTP connection (1): 172.16.1.28:9000
+2025-10-26 23:20:16,435 - DEBUG - http://172.16.1.28:9000 "HEAD /claimbotphoto/111222.jpg HTTP/1.1" 200 0
+2025-10-26 23:20:16,436 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function _handle_200_error at 0x00000181951FE290>
+2025-10-26 23:20:16,436 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function handle_expires_header at 0x00000181951FE0E0>
+2025-10-26 23:20:16,436 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '37841', 'Content-Type': 'image/jpeg', 'ETag': '"bdd158420635b0319a63ab6643e96dd4"', 'Last-Modified': 'Sun, 26 Oct 2025 19:26:21 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '187224087DADCCEE', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '1693', 'X-Ratelimit-Remaining': '1693', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 26 Oct 2025 20:20:23 GMT'}
+2025-10-26 23:20:16,436 - DEBUG - Response body:
+b''
+2025-10-26 23:20:16,437 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <function _update_status_code at 0x00000181951FE3B0>
+2025-10-26 23:20:16,437 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000181976949D0>
+2025-10-26 23:20:16,437 - DEBUG - No retry needed.
+2025-10-26 23:20:16,437 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000018197694A90>>
+2025-10-26 23:20:16,438 - DEBUG - Submitting task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x0000018197694D90> for transfer request: 0.
+2025-10-26 23:20:16,438 - DEBUG - Acquiring 0
+2025-10-26 23:20:16,438 - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) about to wait for the following futures []
+2025-10-26 23:20:16,439 - DEBUG - Releasing acquire 0/None
+2025-10-26 23:20:16,439 - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) done waiting for dependent futures
+2025-10-26 23:20:16,439 - DEBUG - Executing task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'claimbotphoto', 'key': '111222.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x0000018197657DC0>, 'bucket': 'claimbotphoto', 'key': '111222.jpg', 'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x0000018197696B00>, 'extra_args': {}, 'callbacks': [], 'max_attempts': 5, 'download_output_manager': <s3transfer.download.DownloadFilenameOutputManager object at 0x00000181976959F0>, 'io_chunksize': 262144, 'bandwidth_limiter': None}
+2025-10-26 23:20:16,439 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x00000181951DBEB0>
+2025-10-26 23:20:16,439 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x00000181951DBE20>
+2025-10-26 23:20:16,440 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000181951FDE10>
+2025-10-26 23:20:16,440 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000018197694A90>>
+2025-10-26 23:20:16,440 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x00000181973F60E0>>
+2025-10-26 23:20:16,440 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x00000181951DBC70>
+2025-10-26 23:20:16,440 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x00000181951FE440>
+2025-10-26 23:20:16,440 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000181951FDFC0>
+2025-10-26 23:20:16,440 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000018197694A90>>
+2025-10-26 23:20:16,440 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'claimbotphoto', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://172.16.1.28:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': '111222.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-10-26 23:20:16,441 - DEBUG - Endpoint provider result: http://172.16.1.28:9000/claimbotphoto
+2025-10-26 23:20:16,441 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-10-26 23:20:16,441 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-10-26 23:20:16,441 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x00000181951FC1F0>
+2025-10-26 23:20:16,441 - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x0000018197694B20>>
+2025-10-26 23:20:16,441 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x00000181951DB7F0>
+2025-10-26 23:20:16,441 - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x00000181951FD510>
+2025-10-26 23:20:16,442 - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/111222.jpg', 'query_string': {}, 'method': 'GET', 'headers': {'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59'}, 'body': b'', 'auth_path': '/claimbotphoto/111222.jpg', 'url': 'http://172.16.1.28:9000/claimbotphoto/111222.jpg', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001819766C040>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'claimbotphoto', 'params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'claimbotphoto', 'Key': '111222.jpg'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256']}}}
+2025-10-26 23:20:16,442 - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_not_transferring at 0x0000018196ECD630>
+2025-10-26 23:20:16,442 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000018197657F70>>
+2025-10-26 23:20:16,442 - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x00000181973F60E0>>
+2025-10-26 23:20:16,443 - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x00000181951DBA30>
+2025-10-26 23:20:16,443 - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x00000181951FDF30>
+2025-10-26 23:20:16,443 - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x00000181951FE4D0>
+2025-10-26 23:20:16,443 - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x0000018197694B20>>
+2025-10-26 23:20:16,443 - DEBUG - Calculating signature using v4 auth.
+2025-10-26 23:20:16,443 - DEBUG - CanonicalRequest:
+GET
+/claimbotphoto/111222.jpg
+
+host:172.16.1.28:9000
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20251026T202016Z
+
+host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-10-26 23:20:16,443 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20251026T202016Z
+20251026/us-east-1/s3/aws4_request
+c0c1696db385d913cf82ecb5bc6e25a78455bed2bc3663015afb1701a9e44c8b
+2025-10-26 23:20:16,444 - DEBUG - Signature:
+c417cae1877439f340df826b10ed2f7794687d6b181b9ec85d077e8492ecf4cf
+2025-10-26 23:20:16,444 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x0000018197694490>>
+2025-10-26 23:20:16,444 - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_transferring at 0x0000018196ECD5A0>
+2025-10-26 23:20:16,444 - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x00000181951FDD80>
+2025-10-26 23:20:16,444 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=http://172.16.1.28:9000/claimbotphoto/111222.jpg, headers={'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'Boto3/1.40.59 md/Botocore#1.40.59 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython m/Z,e,N,b,D,G cfg/retry-mode#legacy Botocore/1.40.59', 'X-Amz-Date': b'20251026T202016Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=minioadmin/20251026/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date, Signature=c417cae1877439f340df826b10ed2f7794687d6b181b9ec85d077e8492ecf4cf', 'amz-sdk-invocation-id': b'9da1efe0-d75e-4faf-a666-3f7bbe690d4b', 'amz-sdk-request': b'attempt=1'}>
+2025-10-26 23:20:16,454 - DEBUG - http://172.16.1.28:9000 "GET /claimbotphoto/111222.jpg HTTP/1.1" 200 37841
+2025-10-26 23:20:16,455 - DEBUG - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+2025-10-26 23:20:16,455 - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x00000181951FE290>
+2025-10-26 23:20:16,455 - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x00000181951FE0E0>
+2025-10-26 23:20:16,455 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '37841', 'Content-Type': 'image/jpeg', 'ETag': '"bdd158420635b0319a63ab6643e96dd4"', 'Last-Modified': 'Sun, 26 Oct 2025 19:26:21 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '187224088272BC5B', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '1693', 'X-Ratelimit-Remaining': '1693', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 26 Oct 2025 20:20:23 GMT'}
+2025-10-26 23:20:16,455 - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x00000181976B8610>
+2025-10-26 23:20:16,456 - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x00000181951FE3B0>
+2025-10-26 23:20:16,456 - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000181976949D0>
+2025-10-26 23:20:16,456 - DEBUG - No retry needed.
+2025-10-26 23:20:16,456 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000018197694A90>>
+2025-10-26 23:20:16,467 - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) about to wait for the following futures []
+2025-10-26 23:20:16,467 - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) done waiting for dependent futures
+2025-10-26 23:20:16,468 - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 0}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x0000018197696B00>, 'offset': 0}
+2025-10-26 23:20:16,468 - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmphk98bit9\\111222.jpg'}) about to wait for the following futures []
+2025-10-26 23:20:16,469 - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmphk98bit9\\111222.jpg'}) done waiting for dependent futures
+2025-10-26 23:20:16,469 - DEBUG - Executing task IORenameFileTask(transfer_id=0, {'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmphk98bit9\\111222.jpg'}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x0000018197696B00>, 'final_filename': 'C:\\Users\\GaneshPC\\AppData\\Local\\Temp\\tmphk98bit9\\111222.jpg', 'osutil': <s3transfer.utils.OSUtils object at 0x0000018197694BE0>}
+2025-10-26 23:20:16,469 - DEBUG - Releasing acquire 0/None
+2025-10-26 23:20:16,470 - DEBUG - File downloaded successfully from S3
+2025-10-26 23:20:16,470 - DEBUG - Using proactor: IocpProactor
+2025-10-26 23:20:17,591 - DEBUG - Launching browser
+2025-10-26 23:20:17,964 - DEBUG - Browser launched
+2025-10-26 23:20:17,965 - DEBUG - Creating new context
+2025-10-26 23:20:18,008 - DEBUG - Context created
+2025-10-26 23:20:18,008 - DEBUG - Creating new page
+2025-10-26 23:20:18,333 - DEBUG - Page created
+2025-10-26 23:20:18,333 - DEBUG - Navigating to login page
+2025-10-26 23:20:20,009 - DEBUG - Navigation completed
+2025-10-26 23:20:20,009 - DEBUG - Filling login
+2025-10-26 23:20:20,464 - DEBUG - Filling password
+2025-10-26 23:20:20,525 - DEBUG - Clicking login button
+2025-10-26 23:20:20,586 - DEBUG - Clicking nav issues
+2025-10-26 23:20:21,558 - DEBUG - Waiting for loader to disappear
+2025-10-26 23:20:24,035 - DEBUG - Loader disappeared
+2025-10-26 23:20:24,035 - DEBUG - Clicking search textbox
+2025-10-26 23:20:24,079 - DEBUG - Filling search with 367001
+2025-10-26 23:20:24,098 - DEBUG - Finding claim number element
+2025-10-26 23:20:25,840 - DEBUG - Координаты элемента: x=272.296875, y=362.59375, ширина=66.859375, высота=148
+2025-10-26 23:20:25,840 - DEBUG - Clicking at point: (359.15625, 456.59375)
+2025-10-26 23:20:25,860 - DEBUG - ✅ Клик выполнен в точку: (359.15625, 456.59375)
+2025-10-26 23:20:25,860 - DEBUG - Clicking Comments tab
+2025-10-26 23:20:26,302 - DEBUG - Waiting for upload area to appear
+2025-10-26 23:20:27,645 - DEBUG - Upload area appeared
+2025-10-26 23:20:27,645 - DEBUG - Setting input files
+2025-10-26 23:20:27,666 - DEBUG - 📁 Файл 'C:\Users\GaneshPC\AppData\Local\Temp\tmphk98bit9\111222.jpg' успешно установлен!
+2025-10-26 23:20:27,679 - DEBUG - ✅ Файл отобразился в списке загруженных!
+2025-10-26 23:20:27,679 - DEBUG - Sleeping for 5 seconds
+2025-10-26 23:20:32,052 - DEBUG - Closing context
+2025-10-26 23:20:32,086 - DEBUG - Closing browser
+2025-10-26 23:20:32,462 - DEBUG - Browser closed
+2025-10-26 23:20:32,479 - DEBUG - Temporary directory 'C:\Users\GaneshPC\AppData\Local\Temp\tmpqw9jw64z' deleted.
+2025-10-26 23:20:47,687 - DEBUG - Closing context
+2025-10-26 23:20:47,698 - DEBUG - Closing browser
+2025-10-26 23:20:48,000 - DEBUG - Browser closed
+2025-10-26 23:20:48,016 - DEBUG - Temporary directory 'C:\Users\GaneshPC\AppData\Local\Temp\tmphk98bit9' deleted.

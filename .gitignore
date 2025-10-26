@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Logs
+*.log
+debug.log
+
+# Environment variables
+.env
+
+# Playwright
+test-results/
+playwright-report/

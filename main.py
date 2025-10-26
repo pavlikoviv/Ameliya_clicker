@@ -3,6 +3,7 @@ import os
 import logging
 import boto3
 import tempfile
+import shutil # Добавляем для удаления временных директорий
 from playwright.sync_api import Playwright, sync_playwright, expect
 import time
 from dotenv import load_dotenv
@@ -20,24 +21,26 @@ logging.basicConfig(filename='debug.log', level=logging.DEBUG, format='%(asctime
 app = Flask(__name__)
 
 def run_autoclicker_task(s3_file_key: str) -> None:
-    temp_file_path = None
+    temp_dir = None
+    file_path = None
     try:
-        # Create a temporary file to store the S3 object
-        with tempfile.NamedTemporaryFile(delete=False, suffix=".jpg") as temp_file:
-            temp_file_path = temp_file.name
+        # Создаем временную директорию
+        temp_dir = tempfile.mkdtemp()
+        file_name = os.path.basename(s3_file_key)
+        file_path = os.path.join(temp_dir, file_name)
 
-        logging.debug(f"Downloading '{s3_file_key}' from S3 bucket '{S3_BUCKET_NAME}' to '{temp_file_path}'")
+        logging.debug(f"Downloading '{s3_file_key}' from S3 bucket '{S3_BUCKET_NAME}' to '{file_path}'")
         s3 = boto3.client(
             "s3",
             aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
             aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
             endpoint_url=os.getenv("AWS_S3_ENDPOINT_URL") # Optional: for custom S3 compatible storage
         )
-        s3.download_file(S3_BUCKET_NAME, s3_file_key, temp_file_path)
+        s3.download_file(S3_BUCKET_NAME, s3_file_key, file_path)
         logging.debug("File downloaded successfully from S3")
 
-        FILE_PATH = temp_file_path
-        name_picture = os.path.basename(temp_file_path)
+        FILE_PATH = file_path
+        name_picture = file_name # Используем оригинальное имя файла
 
         with sync_playwright() as playwright:
             logging.debug("Launching browser")
@@ -118,8 +121,8 @@ def run_autoclicker_task(s3_file_key: str) -> None:
 
             # 🔥 ШАГ 3: Дождёмся, пока файл отобразится в интерфейсе (опционально)
             # В вашем HTML уже есть примеры: <div class="existing-file"> с картинками
-            file_name = os.path.basename(FILE_PATH)
-            page.wait_for_selector(f'span.caption:has-text("{file_name}")', timeout=10000)
+            file_name_display = os.path.basename(FILE_PATH)
+            page.wait_for_selector(f'span.caption:has-text("{file_name_display}")', timeout=10000)
             logging.debug("✅ Файл отобразился в списке загруженных!")
 
             # page.get_by_role("button", name="Добавить").click()
@@ -137,10 +140,10 @@ def run_autoclicker_task(s3_file_key: str) -> None:
     except Exception as e:
         logging.error(f"An error occurred during autoclicker task: {e}")
     finally:
-        # Clean up the temporary file
-        if temp_file_path and os.path.exists(temp_file_path):
-            os.remove(temp_file_path)
-            logging.debug(f"Temporary file '{temp_file_path}' deleted.")
+        # Clean up the temporary directory
+        if temp_dir and os.path.exists(temp_dir):
+            shutil.rmtree(temp_dir)
+            logging.debug(f"Temporary directory '{temp_dir}' deleted.")
 
 @app.route("/run_autoclicker", methods=["POST"])
 def trigger_autoclicker():
