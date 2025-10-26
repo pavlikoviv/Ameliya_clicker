@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  autoclicker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "5000:5000" # Проброс порта для Flask API
+    volumes:
+      - /dev/shm:/dev/shm # Для Playwright, чтобы избежать ошибок с памятью
+    # Если вы хотите видеть браузер, раскомментируйте следующие строки:
+    # environment:
+    #   - DISPLAY=:99
+    #   - QT_X11_NO_MITSHM=1
+    # cap_add:
+    #   - ALL
+    # devices:
+    #   - /dev/dri:/dev/dri
+    # command: bash -c "Xvfb :99 -screen 0 1280x720x24 & python main.py"
