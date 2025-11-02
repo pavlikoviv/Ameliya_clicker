@@ -48,7 +48,7 @@ def run_autoclicker_task(s3_file_key: str, identifier: str) -> tuple[dict, int]:
 
         with sync_playwright() as playwright:
             logging.debug("Launching browser")
-            browser = playwright.chromium.launch(headless=False)
+            browser = playwright.chromium.launch(headless=True)
             logging.debug("Browser launched")
 
             logging.debug("Creating new context")
