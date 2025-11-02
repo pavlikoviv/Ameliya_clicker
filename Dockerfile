@@ -1,5 +1,5 @@
 # Используем официальный образ Python
-FROM python:3.9-slim-buster
+FROM python:3.9-slim-bullseye
 
 # Устанавливаем системные зависимости для Playwright
 RUN apt-get update && apt-get install -y \
