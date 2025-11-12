@@ -65,11 +65,11 @@ def run_autoclicker_task(s3_file_key: str, identifier: str) -> tuple[dict, int]:
 
             logging.debug("Filling login")
             page.locator("#login-input").click()
-            page.locator("#login-input").fill("service-techno@impsa.ru")
+            page.locator("#login-input").fill(os.getenv("LOGIN_USERNAME"))
 
             logging.debug("Filling password")
             page.locator("#password-input").click()
-            page.locator("#password-input").fill("dfg3456!@#$")
+            page.locator("#password-input").fill(os.getenv("LOGIN_PASSWORD"))
 
             logging.debug("Clicking login button")
             page.get_by_role("button", name="Войти").click()
