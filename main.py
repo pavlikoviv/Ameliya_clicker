@@ -48,7 +48,8 @@ def run_autoclicker_task(s3_file_key: str, identifier: str) -> tuple[dict, int]:
 
         with sync_playwright() as playwright:
             logging.debug("Launching browser")
-            browser = playwright.chromium.launch(headless=True)
+            # browser = playwright.chromium.launch(headless=True)
+            browser = playwright.chromium.launch(headless=False)
             logging.debug("Browser launched")
 
             logging.debug("Creating new context")
@@ -160,6 +161,9 @@ def run_autoclicker_task(s3_file_key: str, identifier: str) -> tuple[dict, int]:
             page.get_by_role("button", name="Добавить").click()
             logging.debug("Clicking 'Close' button")
             page.locator(".form-card-close-icon").click()
+            
+            page.get_by_text("Запись успешно обновлена").wait_for(timeout=10000)
+            
             
             # logging.debug("Sleeping for 5 seconds")
             # time.sleep(5)
